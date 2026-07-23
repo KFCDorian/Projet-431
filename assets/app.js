@@ -275,7 +275,7 @@ function donutChart(fig, items, opts = {}) {
     value: AN.maturite[n], color: ramp[n],
     valueLabel: `${AN.maturite[n]} (${Math.round(100 * AN.maturite[n] / AN.kpis.nb_acteurs)} %)`,
     tipTitle: n, tip: [{ value: `${AN.maturite[n]} acteurs`, color: ramp[n] }]
-  })), { left: 150, aria: 'Répartition des acteurs par degré d\'agenticité' });
+  })), { left: 150, right: 95, aria: 'Répartition des acteurs par degré d\'agenticité' });
   tableView(fig, 'Degré d\'agenticité : niveau maximal démontré de façon crédible (doute = niveau inférieur).',
     ['Niveau', 'Acteurs'], NIVEAUX.map(n => [n, String(AN.maturite[n])]));
 })();

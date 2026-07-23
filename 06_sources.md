@@ -267,7 +267,74 @@ Inclut les rapports de marché, études d'adoption, travaux académiques et anal
 | Sortlist (annuaire agents IA Zurich) | https://www.sortlist.ch/de/s/ki-agenten/zurich-ch | 2026-07-23 | faible (annuaire commercial) | 01, 04 (recensement d'agences) |
 | Wikipedia (article Apertus) | https://en.wikipedia.org/wiki/Apertus_(LLM) | 2026-07-23 | moyenne (encyclopédie collaborative) | 03 (caractéristiques d'Apertus) |
 | Scalemetrics (levées suisses 2026) | https://www.scalemetrics.ai/biggest-swiss-funding-rounds-2026/ | 2026-07-23 | moyenne (agrégateur, méthode non détaillée) | 06 (projections VC) |
-<!-- SUITE -->
+
+## 5. Sources officielles et réglementaires
+
+| Source | URL | Date de consultation | Fiabilité | Utilisée pour |
+|---|---|---|---|---|
+| PFPDT, IA et protection des données (et pages Dispositions pénales, guide art. 24, Journée 2026) | https://www.edoeb.admin.ch/fr/ia-et-protection-des-donnees | 2026-07-23 | élevée (autorité) | 07 (position du PFPDT sur l'IA, sanctions, violations) |
+| Fedlex, LPD révisée (RS 235.1) | https://www.fedlex.admin.ch/eli/cc/2022/491/fr | 2026-07-23 | élevée (texte officiel ; accès direct bloqué ce jour, vérifié via sources secondaires) | 07 (obligations nLPD) |
+| DFAE (signature de la Convention IA du Conseil de l'Europe) | https://www.fdfa.admin.ch/countries/luxembourg/fr/home/actualite/nouveautes.html/content/europa/fr/meta/news/2025/3/26/104646 | 2026-07-23 | élevée | 07 (régulation suisse) |
+| OFCOM (dossier intelligence artificielle) | https://www.bakom.admin.ch/de/kuenstliche-intelligenz | 2026-07-23 | élevée | 07 (approche du Conseil fédéral) |
+| Chancellerie fédérale (page intelligence artificielle) | https://www.bk.admin.ch/fr/intelligence-artificielle | 2026-07-23 | élevée | 07 (gouvernance IA administration fédérale) |
+| Chancellerie fédérale (communiqué appel d'offres data/IA 57 M CHF) | https://www.bk.admin.ch/fr/newnsb/0PNEf5nyXeOYeFWbSfG4v | 2026-07-23 | élevée | 08 (demande publique) |
+| SEFRI (lignes directrices IA de la Confédération, 2020) | https://www.sbfi.admin.ch/dam/fr/sd-web/-uy97trD1VMc/Leitlinien%20K%C3%BCnstliche%20Intelligenz%20-%20DE%5B1%5D.pdf/Leitlinien%20K%C3%BCnstliche%20Intelligenz%20-%20FR.pdf | 2026-07-23 | élevée | 07 (marchés publics) |
+| CNAI (monitoring des lignes directrices IA) | https://cnai.swiss/wp-content/uploads/2022/12/Monitoring-der-Leitlinien-KI-FR.pdf | 2026-07-23 | élevée | 07 (marchés publics) |
+| digital.swiss (transposition de la Convention IA) | https://digital.swiss/de/aktionsplan/massnahme/vorlage-zur-umsetzung-des-rahmenubereinkommens-des-europarats-uber-kunstliche-intelligenz-und-menschenrechte,-demokratie-und-rechtsstaatlichkeit | 2026-07-23 | élevée | 07 (calendrier législatif suisse) |
+| FINMA (communication 08/2024, dossier IA, enquête avril 2025) | https://www.finma.ch/en/news/2024/12/20241218-mm-finma-am-08-24/ | 2026-07-23 | élevée (autorité de surveillance) | 07 (gouvernance IA banques et assurances) |
+| FINMA (circulaire 2018/3 Outsourcing) | https://www.finma.ch/fr/~/media/finma/dokumente/dokumentencenter/myfinma/rundschreiben/finma-rs-2018-03-01012021_de.pdf | 2026-07-23 | élevée | 07 (externalisation) |
+| OFIT (Swiss Government Cloud) | https://www.bit.admin.ch/de/sgc-de | 2026-07-23 | élevée | 07 (cloud du secteur public) |
+| Canton de Zurich (IA dans l'administration cantonale) | https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/digitale-verwaltung/kuenstliche-intelligenz.html | 2026-07-23 | élevée | 07 (guide cantonal de référence) |
+| EUR-Lex (AI Act, règlement (UE) 2024/1689) | https://eur-lex.europa.eu/eli/reg/2024/1689/oj | 2026-07-23 | élevée (texte officiel) | 07 (obligations et sanctions AI Act) |
+| ASB (Guide Cloud, 3e édition 2025 et édition 2020) | https://cdbf.ch/wp-content/uploads/2025/11/2025-asb-guide-cloud-3e-edition.pdf | 2026-07-23 | élevée (standard de branche de facto) | 07 (secret bancaire et cloud) |
+| ASB / Swiss Risk Association (événement Sovereign AI and Cloud in Swiss Banking) | https://www.swissbanking.ch/en/services/events/sovereign-ai-and-cloud-in-swiss-banking-staying-competitive-in-an-ai-driven-global-banking-landscape | 2026-07-23 | moyenne (page d'événement) | 07 (souveraineté bancaire) |
+| FSA (avis de droit sur le cloud pour avocats) | https://digital.sav-fsa.ch/documents/1060627/1169162/gutachten_sav-franzoesisch.pdf | 2026-07-23 | élevée | 07 (secret professionnel de l'avocat) |
+| État de Fribourg (Swiss-U.S. Data Privacy Framework) | https://www.fr.ch/atprdm/actualites/swiss-us-data-privacy-framework-les-entreprises-americaines-certifiees-offrent-un-niveau-de-protection-des-donnees-adequat | 2026-07-23 | élevée | 07 (transferts vers les USA) |
+| État de Fribourg (chatbot IA de fr.ch) | https://www.fr.ch/cha/actualites/nouveau-chatbot-ia-de-frch-faciliter-lacces-a-linformation-publique | 2026-07-23 | élevée (communiqué officiel) | 08 (cas en production, coût de référence) |
+| admin.ch (OFS, usage de l'IA générative par la population) | https://www.admin.ch/fr/newnsb/6zpv_pRise2PU3NnFIv0n | 2026-07-23 | élevée (statistique officielle) | 08 (adoption population) |
+| kmu.admin.ch / SECO (IA dans les PME et sur le marché du travail) | https://www.kmu.admin.ch/kmu/en/home/new/news/2026/artificial-intelligence-begins-weigh-labor-market.html | 2026-07-23 | élevée | 08 (adoption PME, emploi) |
+| CFF (page fournisseurs et appels d'offres) | https://company.sbb.ch/fr/les-cff-comme-partenaire-commercial/fournisseurs/appels-d-offres-actuels.html | 2026-07-23 | élevée | 08 (appels d'offres, absence de lot IA confirmée) |
+
+## 6. Écosystème et programmes d'innovation
+
+| Source | URL | Date de consultation | Fiabilité | Utilisée pour |
+|---|---|---|---|---|
+| ETH Zurich (communiqué Apertus) | https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html | 2026-07-23 | élevée (communiqué institutionnel) | 03, 05, 06, 08 (LLM souverain Apertus) |
+| ETH Zurich News (record de créations 2025, collaboration SNAI avec l'EPFL) | https://ethz.ch/en/news-and-events/eth-news/news/2025/01/start-up-boom-thriving.html | 2026-07-23 | élevée | 03 (dynamique des spin-offs, SNAI) |
+| ETH D-INFK (rachat d'Invariant Labs par Snyk) | https://inf.ethz.ch/news-and-events/spotlights/infk-news-channel/2025/06/eth-spin-off-aquired-by-snyk.html | 2026-07-23 | élevée | 03 (exit sécurité d'agents) |
+| ETH AI Center (liste des 78 startups affiliées) | https://ai.ethz.ch/entrepreneurship/startups.html | 2026-07-23 | élevée | 03 (recensement des startups agentiques) |
+| EPFL (actualité Launchpad, 6 projets IA sélectionnés) | https://actu.epfl.ch/news/six-ai-startup-projects-selected-for-new-launchpad | 2026-07-23 | élevée | 03 (programme AI Track) |
+| EPFL (page Startup Launchpad AI Track) | https://www.epfl.ch/innovation/startup/programs/ai-track/ | 2026-07-23 | élevée | 03 (programme AI Track) |
+| Idiap (spin-offs, tech transfer, Idiap Create Challenge) | https://www.idiap.ch/en/tech-transfer/spinoffs-partners | 2026-07-23 | élevée | 03 (écosystème valaisan, briques vocales) |
+| CSEM (historique startups et communiqué Accelerate) | https://www.csem.ch/en/history-and-start-ups/ | 2026-07-23 | élevée | 03 (deeptech neuchâteloise) |
+| Innosuisse (Start-up Innovation Projects) | https://www.innosuisse.admin.ch/en/start-up-innovation-projects | 2026-07-23 | élevée (agence fédérale) | 03 (financement public de l'innovation) |
+| Swiss AI Initiative | https://www.swiss-ai.org/ | 2026-07-23 | élevée | 03 (initiative Alps/Apertus) |
+| Public AI Inference Utility (Apertus) | https://publicai.co/stories/apertus | 2026-07-23 | élevée | 03 (canaux de diffusion d'Apertus) |
+| SPIU, Swiss Public Inference Utility | https://spiu.ch/ | 2026-07-23 | élevée | 03 (inférence souveraine) |
+| Venturelab (profils et communiqués : Unique, DeepJudge, Visium, Selma) | https://www.venturelab.swiss/ | 2026-07-23 | moyenne à élevée (organisme de promotion) | 03, 05 (financements et fiches startups) |
+| Venture Kick (pré-seed nunu.ai) | https://www.venturekick.ch/Nunuai-raises-USD-2M-PreSeed-Funding-to-innovate-game-testing-with-AI | 2026-07-23 | élevée | 03 (financement nunu.ai) |
+| zuerich.ai (analyse du record de spin-offs ETH 2025) | https://zuerich.ai/news/eth-zurich-spinoff-record-2025-analysis/ | 2026-07-23 | moyenne à élevée | 03 (dynamique zurichoise) |
+| Greater Zurich Area (SwissGPT, implantation Anthropic) | https://www.greaterzuricharea.com/en/news/swissgpt-bringing-secure-ai-companies | 2026-07-23 | moyenne à élevée (organisme de promotion) | 03, 04, 06 (AlpineAI, Anthropic Zurich) |
+| Switzerland Global Enterprise (équipe de recherche Anthropic à Zurich) | https://www.s-ge.com/invest/en/articles/news/anthropic-establishing-ai-research-team-zurich | 2026-07-23 | élevée | 06 (implantations) |
+| ZHAW Impact (SwissGPT, collaboration historique) | https://impact.zhaw.ch/en/article/a-historic-collaboration-switzerlands-own-version-of-chatgpt | 2026-07-23 | élevée | 03 (fiche AlpineAI) |
+| UZH Innovation Hub (fusion Supertext) | https://www.innovation.uzh.ch/en/stories/news/2025/12.02.2025_Supertext.html | 2026-07-23 | élevée | 03 (fiche Supertext) |
+| INSAIT (série A LatticeFlow) | https://insait.ai/latticeflow-rounda-en/ | 2026-07-23 | moyenne à élevée | 03 (financement LatticeFlow) |
+| Deep Tech Nation (éditoriaux agentic AI, Swiss Deep Tech Report 2026, articles financement) | https://deeptechnation.ch/ | 2026-07-23 | moyenne à élevée (fondation, éditorial) | 01, 03, 06 (panorama agentique, valorisation DeepJudge, VC deeptech) |
+| Fongit (incubateur genevois) | https://www.fongit.ch/ | 2026-07-23 | élevée (contexte écosystème) | 02 (écosystème romand) |
+| Innovaud (agence d'innovation vaudoise) | https://www.innovaud.ch/fr/ | 2026-07-23 | élevée (contexte écosystème) | 02 (écosystème romand) |
+| Promotion économique du Valais (Neuralia) | https://valais-economie.ch/neuralia-deploie-des-solutions-concretes-dintelligence-artificielle-dans-les-pme/ | 2026-07-23 | élevée (source institutionnelle) | 02 (fiche Neuralia) |
+| USI Startup (fiche Artificialy) | https://www.startup.usi.ch/en/feeds/30365 | 2026-07-23 | élevée (source institutionnelle) | 02 (fiche Artificialy) |
+| Canton de Genève (plan directeur de l'innovation) | https://www.ge.ch/document/plan-directeur-innovation-deploie-ses-premiers-effets-concrets-avec-quatre-soutiens-financiers-octroyes-start-up | 2026-07-23 | élevée | 02 (soutiens publics aux startups) |
+
+## Notes
+
+- Toutes les sources ci-dessus ont été consultées le 23 juillet 2026 ; les dates de publication d'origine des articles et études varient (2020 à 2026) et sont signalées dans les fiches de recherche.
+- Péremption estimée : 6 à 12 mois pour les données concurrentielles (offres, prix, effectifs, financements, acteurs actifs ; le segment des petites agences IA est particulièrement volatil). Péremption plus courte pour les données réglementaires en évolution : avant-projet suisse de transposition de la Convention du Conseil de l'Europe attendu d'ici fin 2026, échéances AI Act reprogrammées (2 décembre 2027, 2 août 2028), stabilité du Swiss-U.S. Data Privacy Framework à surveiller en continu.
+- Les fiabilités reprennent celles indiquées dans les fiches de recherche ; à défaut, elles ont été déduites prudemment (source primaire officielle : élevée ; presse établie : élevée ; site de l'entreprise : élevée pour ses informations factuelles, moyenne pour ses revendications ; blog ou annuaire commercial : faible à moyenne).
+- Plusieurs sites étaient inaccessibles le jour de la consultation (erreurs 403 : pwc.ch AI agents, artificialy.com, iaswiss.com, fedlex.admin.ch) ; les données correspondantes proviennent d'extraits de moteurs de recherche ou de sources secondaires recoupées, comme indiqué.
+- Quelques sources citées dans les fiches sans URL précise (Crunchbase, LinkedIn, Kompass/jobs.ch, Glassdoor entreprises, Dealroom, cash.ch, CyberScoop, Northzone, PocketGamer.biz, annuaires ensun/Goodfirms/aisuperior/flypix) ne figurent pas dans les tableaux ; elles sont mentionnées dans les fiches d'origine.
+- simap.ch n'étant pas indexable de l'extérieur, les appels d'offres publics recensés proviennent de la presse et des communiqués officiels, pas d'une extraction exhaustive.
+
 
 
 

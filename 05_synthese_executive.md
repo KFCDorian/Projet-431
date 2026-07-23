@@ -17,7 +17,7 @@ Date : 23 juillet 2026. Étude complète : `00` à `07` et site interactif dans 
 
 ## Ce qui étaye ces conclusions
 - Base de 84 acteurs consolidée et dédupliquée (`data/acteurs.csv`, 20 champs contractuels, niveaux de confiance : 51 élevés, 30 moyens, 3 faibles).
-- 8 recherches thématiques sourcées (`recherche/01` à `08`), environ 200 sources datées du 23.07.2026.
+- 8 recherches thématiques sourcées (`recherche/01` à `08`), 277 sources uniques référencées (`06_sources.md`), datées du 23.07.2026.
 - Tableaux comparatifs générés mécaniquement depuis le CSV (`02_tableaux_comparatifs.md`), y compris la heatmap verticales x maturité qui révèle les zones blanches.
 - Grille de notation multicritère de 7 angles candidats (`04_angle_strategique.md`).
 

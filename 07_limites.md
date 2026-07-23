@@ -9,7 +9,7 @@ Date : 23 juillet 2026.
 
 ## 2. Limites des données
 - Données déclaratives : degré d'agenticité, stack, clients références et hébergement proviennent des sites des acteurs eux-mêmes. La grille stricte appliquée (doute = niveau inférieur) réduit mais n'élimine pas le biais marketing.
-- Champs lacunaires : année de création inconnue pour 45 acteurs sur 84, effectifs publiés pour une minorité, prix publics pour 22 acteurs seulement, hébergement non précisé pour 38. Les analyses fondées sur ces champs (chronologie, comparatif prix) sont donc partielles, ce qui est signalé en place.
+- Champs lacunaires : année de création inconnue pour 45 acteurs sur 84, effectifs publiés pour une minorité, prix publics pour 22 acteurs seulement, hébergement sans localisation précisée pour 46 (dont 38 sans aucune mention). Les analyses fondées sur ces champs (chronologie, comparatif prix) sont donc partielles, ce qui est signalé en place.
 - 4 acteurs sans canton confirmé, 3 fiches en confiance faible conservées et marquées plutôt que supprimées.
 - Contradictions entre sources documentées dans `data/notes_consolidation.md` (financement DeepJudge, sièges Unit8 et AlpineAI, effectif Unique) ; les taux d'adoption IA varient du simple au sextuple selon la définition et l'année (KOF ~10 % contre UBS ~60 %), les deux valeurs sont conservées.
 

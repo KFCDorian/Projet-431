@@ -1,39 +1,95 @@
-# 00 - Cadrage de l'étude de marché
+# 00 - Cadrage validé
 Date de validation : 23 juillet 2026
-Statut : validé par le commanditaire (options par défaut acceptées en bloc)
+Mode de validation : options par défaut acceptées en bloc par le commanditaire ("ok go")
 
-## Objet
-Étude de marché sur les entreprises suisses proposant des services d'IA agentique (agents IA, automatisation agentique, copilotes métier, intégration MCP, orchestration multi-agents) à des particuliers (B2C) et/ou à des entreprises (B2B).
+## Objet de l'étude
+Étude du retard de maturité digitale des commerces, restaurants et hôtels genevois, à savoir
+les établissements sans site internet, sans réservation en ligne, sans chatbot ni agent IA
+de réception client. Étude par détection d'absence : l'univers est recensé d'abord, puis
+chaque établissement est vérifié individuellement.
 
-## Cadrage retenu
+Deux nuances méthodologiques sont traitées explicitement dans toute l'étude :
+1. "Pas de site" ne signifie pas "pas de présence en ligne". La dépendance totale à
+   Google Business Profile, Instagram, TheFork, Booking.com ou Uber Eats est qualifiée
+   comme telle (niveaux 1 à 3 de la grille de maturité), et constitue probablement le
+   cœur du gisement.
+2. Un établissement sans site n'est pas automatiquement un prospect. Les cas de non-besoin
+   (clientèle captive, établissement complet en permanence, commerce de flux) sont
+   identifiés et exclus du gisement prioritaire.
 
-| Dimension | Décision |
-|---|---|
-| Objectif de l'étude | Créer une offre / lancer une activité dans l'IA agentique en Suisse |
-| Lectorat | Le commanditaire et d'éventuels associés ; ton professionnel et direct, pas de format "pitch investisseur" |
-| Périmètre géographique | Toute la Suisse, marquage par canton pour filtrage |
-| Langues des sources | FR + DE + EN, IT en appoint pour le Tessin ; livrables en français |
-| Définition "IA agentique" | Large avec gradation : tout acteur vendant de l'IA agentique ou s'en approchant (chatbots avancés, RAG, automatisation IA, copilotes, agents autonomes), avec colonne "degré d'agenticité" permettant un filtrage strict a posteriori |
-| Exclusions | Recherche académique sans offre commerciale, acteurs sans présence juridique ou opérationnelle en Suisse, offres de hardware, freelances non immatriculés |
-| Types d'acteurs | Startups produit, éditeurs SaaS, agences/ESN/intégrateurs, cabinets de conseil (y compris Big Four pour leur offre suisse), filiales suisses de groupes étrangers, freelances structurés (Sàrl, studios) ; statut marqué dans le CSV, filiales signalées comme telles |
-| Taille des entreprises | Toutes tailles, du seed aux grands comptes, la taille étant une colonne de filtre |
-| Nombre d'acteurs visé | Environ 50 acteurs bien documentés, plus une liste annexe d'acteurs identifiés mais non fichés |
-| Verticales | Toutes couvertes dans le mapping ; analyse approfondie sur banque/assurance, pharma/life sciences et services professionnels aux PME |
-| Profondeur financière | Prix publics quand disponibles, levées de fonds, effectifs estimés ; mention "non disponible publiquement" attendue fréquemment pour les prix |
-| Formats des livrables | Markdown (dossiers), CSV (base acteurs), JSON (site) ; pas de PDF ni XLSX |
-| Format du site | Page unique avec ancres et navigation sticky ; données inline dans app.js pour éviter les blocages CORS du protocole file:// |
-| Niveau de sourcing | Chiffres clés et faits critiques sourcés ; le reste avec niveau de confiance indiqué (élevé/moyen/faible) |
-| Temps de recherche | Session unique, environ 2 à 4 heures de travail agentique, points d'étape après chaque phase |
-| Idée préconçue | Aucune ; la Phase 5 part uniquement des zones blanches détectées |
+## Décisions de cadrage
 
-## Limites connues dès le cadrage
-- Zefix et LinkedIn limitent l'accès automatisé : les effectifs et données de registre seront des estimations croisées, documentées dans `07_limites.md`.
-- Les prix des agences et cabinets suisses sont rarement publics.
-- Toute information est datée du jour de consultation ; le marché évolue vite, péremption estimée à 6-12 mois pour les données concurrentielles.
+### A - Dépôt
+- L'étude précédente (studio d'agents IA pour fiduciaires suisses) est archivée intacte
+  dans `archive_fiduciaires/`. La nouvelle étude occupe la racine du dépôt.
 
-## Règles de travail (rappel contractuel)
-- Aucun chiffre inventé ; "non disponible publiquement" avec conséquence explicitée.
-- Distinction systématique : fait sourcé / estimation raisonnée / hypothèse.
-- Contradictions entre sources signalées, jamais tranchées silencieusement.
-- Informations critiques croisées avec au moins deux sources indépendantes.
-- Rédaction en français professionnel, sans tiret cadratin.
+### B - Finalité
+- Finalité première : étude de marché préalable à un lancement d'activité (business plan léger).
+- La base d'établissements qualifiée sert aussi la prospection commerciale, dans le cadre
+  de conformité défini en section G.
+- Lien avec l'étude fiduciaires : oui, second angle du même projet. Les données déjà
+  constituées sur l'offre concurrente et les grilles tarifaires seront réutilisées quand
+  elles restent valides, avec date de péremption signalée.
+
+### C - Périmètre géographique
+- Ville de Genève + Carouge : zones denses, vérifiables, représentatives.
+- Extrapolation au canton entier via les données OCSTAT/STATENT, avec méthode explicite
+  et intervalle d'incertitude (voir E).
+
+### D - Segments
+Retenus :
+- Restauration : restaurants, bars, cafés.
+- Hôtellerie : tous hébergements, du 5 étoiles à la pension familiale, chambres d'hôtes
+  et résidences comprises.
+- Commerce de détail indépendant : y compris boulangeries et métiers de bouche, coiffeurs,
+  instituts, opticiens.
+
+Exclus :
+- Food trucks (univers instable, invérifiable).
+- Garages.
+- Chaînes et franchises (décision digitale au siège, hors de portée d'une offre locale).
+
+### E - Définition du manque et profondeur
+- Les quatre manques (site, site fonctionnel, réservation en ligne, chatbot) sont qualifiés
+  séparément via la grille de maturité en 7 niveaux (0 à 6) définie en `01_plan_recherche.md`.
+- Taille cible de la base : environ 300 établissements vérifiés un par un.
+- Approche : exhaustivité sur les zones retenues (par quartier), puis extrapolation
+  statistique au canton. Une fiche non vérifiée est marquée confiance faible, jamais déduite.
+
+### F - Données collectées et volets optionnels
+- Schéma contractuel de `/data/etablissements.csv` : voir Phase 3 du brief (colonnes figées).
+- Nom du gérant : uniquement s'il est public (Zefix, site de l'établissement, presse).
+  Aucun recoupement au-delà.
+- Volet qualitatif : guide d'entretien et questionnaire gérants rédigés, passation à la
+  charge du commanditaire.
+- Angle économique : chiffrage du manque à gagner par segment et grille tarifaire d'offre.
+
+### G - Conformité et éthique (cadre confirmé)
+- Données professionnelles publiques uniquement.
+- Consultation manuelle des sources : pas de scraping de Google Maps ni des plateformes
+  dont les CGU l'interdisent ; API officielles seulement le cas échéant.
+- Pas de collecte d'emails personnels ni de données de personnes au-delà du contact
+  professionnel public.
+- `05_conformite.md` (nLPD, art. 3 al. 1 let. o LCD, CGU des sources) est produit avant
+  toute exploitation commerciale du fichier.
+- Règle d'arrêt : toute méthode qui contournerait ce cadre est signalée au commanditaire
+  avec une alternative conforme, jamais exécutée d'initiative.
+
+### H - Livrables, deadline, git
+- Arborescence : fichiers numérotés 00 à 08 à la racine, `/recherche/`, `/data/`, `/site/`.
+  Attention, la numérotation du brief place la conformité en `05_conformite.md` et décale
+  la synthèse en `06_synthese_executive.md`, sources en `07_sources.md`, limites en
+  `08_limites.md`.
+- Deadline : aucune contrainte, fiabilité privilégiée sur la vitesse.
+- Git : commit descriptif + push après chaque phase importante ; mise à jour de `gh-pages`
+  quand `/site/` évolue.
+- Point d'étape court après chaque phase, ajustements possibles avant de poursuivre.
+
+## Règles de travail rappelées
+- Aucun chiffre inventé ; donnée manquante = "non disponible publiquement" + conséquence.
+- Distinction systématique : fait vérifié / estimation raisonnée / hypothèse.
+- Aucun classement sans vérification effective ; l'absence de résultat n'est pas une preuve
+  d'absence.
+- Chaque information est datée, avec fenêtre de validité.
+- Les contradictions entre sources sont signalées, pas tranchées silencieusement.
+- `PROGRESS.md` tenu à jour : fait, en cours, bloqué.

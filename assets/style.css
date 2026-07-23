@@ -1,0 +1,206 @@
+/* Étude de marché IA agentique Suisse : styles du mini-site.
+   Palette et spécifications : méthode dataviz, palette de référence validée
+   (validate_palette.js, modes light et dark). Typographie système uniquement. */
+
+:root {
+  color-scheme: light;
+  --surface-1: #fcfcfb;      /* surface des cartes et graphiques */
+  --page: #f9f9f7;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --muted: #898781;
+  --grid: #e1e0d9;
+  --baseline: #c3c2b7;
+  --border: rgba(11, 11, 11, 0.10);
+  --series-1: #2a78d6;       /* bleu : slot catégoriel 1 */
+  --series-2: #eb6834;       /* orange : slot 2 */
+  --series-3: #1baf7a;       /* aqua : slot 3 */
+  --de-emphasis: #c3c2b7;    /* gris de mise en retrait */
+  --seq-250: #86b6ef; --seq-300: #6da7ec; --seq-350: #5598e7;
+  --seq-400: #3987e5; --seq-450: #2a78d6; --seq-500: #256abf;
+  --seq-550: #1c5cab; --seq-600: #184f95;
+  --focus: #2a78d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255, 255, 255, 0.10);
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --de-emphasis: #52514e;
+    --focus: #3987e5;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-1: #1a1a19;
+  --page: #0d0d0d;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --muted: #898781;
+  --grid: #2c2c2a;
+  --baseline: #383835;
+  --border: rgba(255, 255, 255, 0.10);
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --de-emphasis: #52514e;
+  --focus: #3987e5;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 4.2rem; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--page);
+  color: var(--text-primary);
+  line-height: 1.55;
+  font-size: 16px;
+}
+a { color: var(--series-1); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible,
+tr:focus-visible, summary:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Navigation */
+nav.topnav {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; align-items: center; gap: 0.25rem; flex-wrap: wrap;
+  background: var(--surface-1);
+  border-bottom: 1px solid var(--border);
+  padding: 0.45rem 1rem;
+}
+nav.topnav a {
+  color: var(--text-secondary); text-decoration: none;
+  padding: 0.3rem 0.55rem; border-radius: 6px; font-size: 0.9rem;
+}
+nav.topnav a:hover { background: var(--grid); color: var(--text-primary); }
+nav.topnav .brand { font-weight: 600; color: var(--text-primary); margin-right: 0.5rem; }
+#theme-toggle {
+  margin-left: auto;
+  background: none; border: 1px solid var(--border); border-radius: 6px;
+  color: var(--text-primary); padding: 0.3rem 0.6rem; cursor: pointer; font-size: 0.9rem;
+}
+
+main { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+section { margin: 2.5rem 0; }
+h1 { font-size: 1.7rem; margin: 1rem 0 0.2rem; }
+h2 { font-size: 1.35rem; border-bottom: 1px solid var(--grid); padding-bottom: 0.3rem; margin-top: 0; }
+h3 { font-size: 1.05rem; }
+.lead, .note { color: var(--text-secondary); }
+.note { font-size: 0.85rem; }
+.source-note { font-size: 0.8rem; color: var(--muted); margin-top: 0.4rem; }
+.lecture { font-size: 0.9rem; color: var(--text-secondary); margin: 0.5rem 0 0; font-style: italic; }
+
+.card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0;
+}
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
+
+/* Tuiles de chiffres clés */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.8rem; }
+.kpi {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 10px; padding: 0.8rem 1rem;
+}
+.kpi .label { font-size: 0.8rem; color: var(--text-secondary); }
+.kpi .value { font-size: 1.9rem; font-weight: 600; line-height: 1.2; }
+.kpi .detail { font-size: 0.75rem; color: var(--muted); }
+
+/* Graphiques SVG */
+figure.chart { margin: 0; }
+figure.chart svg { display: block; width: 100%; height: auto; }
+figure.chart .plot-wrap { overflow-x: auto; }
+.legend { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.83rem; color: var(--text-secondary); margin: 0.3rem 0; }
+.legend .key { display: inline-flex; align-items: center; gap: 0.35rem; }
+.legend .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.legend .linekey { width: 16px; height: 3px; border-radius: 2px; display: inline-block; }
+
+/* Infobulle */
+#tooltip {
+  position: fixed; z-index: 100; pointer-events: none;
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px;
+  padding: 0.45rem 0.65rem; font-size: 0.82rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  max-width: 300px; display: none;
+}
+#tooltip .t-title { color: var(--text-secondary); margin-bottom: 0.15rem; }
+#tooltip .t-row { display: flex; align-items: center; gap: 0.4rem; }
+#tooltip .t-val { font-weight: 600; }
+#tooltip .t-key { width: 12px; height: 3px; border-radius: 2px; display: inline-block; }
+
+/* Tableaux */
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
+th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { color: var(--text-secondary); font-weight: 600; white-space: nowrap; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--grid); }
+caption { text-align: left; color: var(--muted); font-size: 0.8rem; padding: 0.3rem 0; caption-side: bottom; }
+
+details.tableview { margin-top: 0.5rem; }
+details.tableview summary { cursor: pointer; color: var(--text-secondary); font-size: 0.85rem; }
+
+/* Annuaire */
+.filters {
+  display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: end;
+  margin-bottom: 0.8rem;
+}
+.filters label { display: flex; flex-direction: column; font-size: 0.78rem; color: var(--text-secondary); gap: 0.15rem; }
+.filters select, .filters input {
+  background: var(--surface-1); color: var(--text-primary);
+  border: 1px solid var(--border); border-radius: 6px; padding: 0.35rem 0.5rem; font-size: 0.88rem;
+  min-width: 9rem;
+}
+.filters button, .btn {
+  background: var(--series-1); color: #fff; border: none; border-radius: 6px;
+  padding: 0.45rem 0.8rem; font-size: 0.88rem; cursor: pointer;
+}
+.btn.secondary { background: none; color: var(--text-primary); border: 1px solid var(--border); }
+#annuaire-table th { cursor: pointer; user-select: none; }
+#annuaire-table th .arrow { color: var(--muted); font-size: 0.7rem; }
+#annuaire-table tbody tr { cursor: pointer; }
+#compteur-annuaire { font-size: 0.85rem; color: var(--text-secondary); margin: 0.4rem 0; }
+
+/* Fiche détaillée */
+#fiche {
+  border: 1px solid var(--border); border-radius: 10px; padding: 1rem;
+  background: var(--surface-1); margin-top: 0.8rem;
+}
+#fiche dl { display: grid; grid-template-columns: minmax(140px, max-content) 1fr; gap: 0.25rem 1rem; margin: 0.5rem 0; }
+#fiche dt { color: var(--text-secondary); font-size: 0.83rem; }
+#fiche dd { margin: 0; font-size: 0.9rem; }
+#fiche .close { float: right; }
+
+.badge {
+  display: inline-block; padding: 0.05rem 0.5rem; border-radius: 99px;
+  font-size: 0.75rem; border: 1px solid var(--border); color: var(--text-secondary);
+}
+.badge.conf-élevé { border-color: var(--series-3); }
+.badge.conf-faible { border-color: var(--series-2); }
+
+/* Heatmap : cellules VIDE */
+.cell-vide { fill: var(--surface-1); stroke: var(--grid); stroke-dasharray: none; }
+
+footer { color: var(--muted); font-size: 0.8rem; padding: 2rem 0; border-top: 1px solid var(--grid); margin-top: 2rem; }
+
+@media print {
+  nav.topnav, #theme-toggle, .filters, .btn { display: none; }
+  .card { break-inside: avoid; }
+}

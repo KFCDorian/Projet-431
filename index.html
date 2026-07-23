@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IA agentique en Suisse : étude de marché 2026</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<nav class="topnav" aria-label="Navigation principale">
+  <span class="brand">IA agentique Suisse</span>
+  <a href="#accueil">Accueil</a>
+  <a href="#cartographie">Cartographie</a>
+  <a href="#annuaire">Annuaire</a>
+  <a href="#comparatifs">Comparatifs</a>
+  <a href="#matrice">Matrice</a>
+  <a href="#zones-blanches">Zones blanches</a>
+  <a href="#angle">Angle stratégique</a>
+  <a href="#sources">Sources et limites</a>
+  <button id="theme-toggle" aria-pressed="false">Mode sombre</button>
+</nav>
+
+<main>
+<h1>Le marché suisse de l'IA agentique</h1>
+<p class="lead">Étude de marché indépendante, données collectées le 23 juillet 2026.
+84 acteurs documentés et dédupliqués, environ 200 sources. Chaque chiffre affiché renvoie à sa
+source ou porte une mention de fiabilité ; méthode complète dans les dossiers
+<code>00</code> à <code>07</code> du projet.</p>
+
+<section id="accueil" aria-labelledby="h-accueil">
+  <h2 id="h-accueil">Chiffres clés</h2>
+  <div class="kpis" id="kpis"></div>
+  <p class="source-note">Source : base consolidée <code>data/acteurs.csv</code> (84 acteurs,
+  consultation des sites le 23.07.2026). Financement : levées publiées dans la presse
+  (fiabilité mixte, montants en USD principalement) ; les montants non divulgués ne sont pas comptés.</p>
+
+  <div class="card">
+    <h3>Taille de marché : TAM, SAM, SOM</h3>
+    <figure class="chart" id="chart-tam"></figure>
+    <p class="lecture" id="lecture-tam"></p>
+    <p class="source-note">Calcul bottom-up détaillé dans <code>03_analyse_marche.md</code> :
+    données d'ancrage OFS/STATENT (faits), pénétrations et paniers moyens en hypothèses assumées.
+    Fiabilité : ordres de grandeur défendables, valeurs précises non garanties (erreur possible d'un facteur 2).</p>
+  </div>
+
+  <div class="card">
+    <h3>Dynamique : créations d'entreprises et levées de fonds</h3>
+    <div class="grid-2">
+      <figure class="chart" id="chart-creations"></figure>
+      <figure class="chart" id="chart-levees"></figure>
+    </div>
+    <p class="lecture" id="lecture-dynamique"></p>
+    <p class="source-note">Créations : 39 acteurs sur 84 à date de création publiée (biais de
+    sous-estimation des années récentes, les jeunes agences publient rarement leur date).
+    Levées : presse et communiqués via <code>recherche/06</code>, montants publiés uniquement.</p>
+  </div>
+</section>
+
+<section id="cartographie" aria-labelledby="h-carto">
+  <h2 id="h-carto">Cartographie</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Acteurs par canton</h3>
+      <figure class="chart" id="chart-cantons"></figure>
+      <p class="lecture">Zurich concentre 44 % des acteurs, l'axe Zurich-Vaud en concentre 62 % ;
+      12 cantons sur 26 n'ont aucun acteur recensé.</p>
+    </div>
+    <div class="card">
+      <h3>Répartition B2B / B2C / mixte</h3>
+      <figure class="chart" id="chart-cibles"></figure>
+      <p class="lecture">Le B2C suisse est marginal : 6 acteurs sur 84, aucun au niveau agent
+      autonome. Le marché est structurellement B2B.</p>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Segments par canton</h3>
+    <figure class="chart" id="chart-canton-segment"></figure>
+    <p class="lecture">Le produit est zurichois, le conseil est partagé entre Zurich et Lausanne,
+    le service est partout : la longue traîne d'agences suit la géographie des PME.</p>
+    <p class="source-note">Segments : produit (startups, éditeurs et 3 filiales produit),
+    service et intégration (agences, ESN, autres filiales), conseil. Détail de la ventilation :
+    <code>scripts/normalisation.py</code>.</p>
+  </div>
+</section>
+
+<section id="annuaire" aria-labelledby="h-annuaire">
+  <h2 id="h-annuaire">Annuaire des 84 acteurs</h2>
+  <div class="filters" role="search" aria-label="Filtres de l'annuaire">
+    <label>Recherche plein texte
+      <input type="search" id="f-recherche" placeholder="nom, offre, verticale...">
+    </label>
+    <label>Canton
+      <select id="f-canton"><option value="">Tous</option></select>
+    </label>
+    <label>Segment
+      <select id="f-segment"><option value="">Tous</option></select>
+    </label>
+    <label>Cible
+      <select id="f-cible"><option value="">Toutes</option></select>
+    </label>
+    <label>Verticale
+      <select id="f-verticale"><option value="">Toutes</option></select>
+    </label>
+    <label>Maturité
+      <select id="f-maturite"><option value="">Toutes</option></select>
+    </label>
+    <button class="btn secondary" id="f-reset" type="button">Réinitialiser</button>
+    <button class="btn" id="f-export" type="button">Exporter la vue en CSV</button>
+  </div>
+  <p id="compteur-annuaire" role="status" aria-live="polite"></p>
+  <div class="table-wrap">
+    <table id="annuaire-table">
+      <caption>Tri : cliquer sur un en-tête de colonne. Fiche détaillée : cliquer sur une ligne
+      (ou touche Entrée). Données du 23.07.2026, niveau de confiance par fiche.</caption>
+      <thead><tr id="annuaire-head"></tr></thead>
+      <tbody id="annuaire-body"></tbody>
+    </table>
+  </div>
+  <div id="fiche" hidden></div>
+</section>
+
+<section id="comparatifs" aria-labelledby="h-comparatifs">
+  <h2 id="h-comparatifs">Comparatifs</h2>
+  <div class="card">
+    <h3>Maturité technique des offres</h3>
+    <figure class="chart" id="chart-maturite"></figure>
+    <p class="lecture">65 % du marché livre du workflow automatisé vendu comme agentique ; seuls
+    11 acteurs démontrent des agents autonomes multi-étapes. Grille stricte : niveau maximal
+    démontré, en cas de doute le niveau inférieur.</p>
+  </div>
+  <div class="card">
+    <h3>Segments par verticale</h3>
+    <figure class="chart" id="chart-verticale-segment"></figure>
+    <p class="lecture">Banque/finance, santé/pharma et industrie sont disputées par le produit et
+    le conseil à la fois ; fiduciaire, immobilier et construction ne voient que du service
+    généraliste, sans produit dédié.</p>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Modèles de revenus</h3>
+      <figure class="chart" id="chart-revenus"></figure>
+      <p class="lecture">Le forfait projet domine (46 acteurs le pratiquent) : un marché de
+      prestation, où le revenu récurrent reste à construire.</p>
+    </div>
+    <div class="card">
+      <h3>Hébergement des données annoncé</h3>
+      <figure class="chart" id="chart-hebergement"></figure>
+      <p class="lecture">L'argument souveraineté est omniprésent dans les discours, mais 38 acteurs
+      sur 84 ne précisent pas publiquement où tournent leurs données.</p>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Prix publics observés</h3>
+    <div class="table-wrap" id="table-prix"></div>
+    <p class="lecture">Seuls 22 acteurs sur 84 publient des prix : l'entrée de gamme PME va de
+    390 CHF (diagnostic) à 30 000 CHF (projet), le run mensuel de 200 à 1 500 CHF ; les grands
+    comptes et éditeurs ne publient rien.</p>
+  </div>
+</section>
+
+<section id="matrice" aria-labelledby="h-matrice">
+  <h2 id="h-matrice">Matrice de positionnement</h2>
+  <div class="card">
+    <div class="filters" aria-label="Axes de la matrice">
+      <label>Axe horizontal
+        <select id="m-axe-x"></select>
+      </label>
+      <label>Axe vertical
+        <select id="m-axe-y"></select>
+      </label>
+    </div>
+    <figure class="chart" id="chart-matrice"></figure>
+    <p class="lecture">La case encombrée est "autonomie moyenne x généraliste" : les agences PME
+    interchangeables. Les positions défendables sont en haut : autonomie élevée et spécialisation
+    verticale (DeepJudge, Unique, nunu.ai). La taille des bulles suit l'effectif estimé ; effectif
+    inconnu : petite bulle grise en périphérie de légende, voir vue tableau.</p>
+    <p class="source-note">Positions légèrement dispersées aléatoirement à l'intérieur de chaque
+    case pour éviter les recouvrements ; les axes sont ordinaux, pas continus.</p>
+  </div>
+</section>
+
+<section id="zones-blanches" aria-labelledby="h-zones">
+  <h2 id="h-zones">Zones blanches</h2>
+  <div class="card">
+    <h3>Heatmap : verticales x maturité (les cases vides sont les opportunités)</h3>
+    <figure class="chart" id="chart-heatmap"></figure>
+    <p class="lecture">Les cases vides de la colonne "agents autonomes" sont les vraies zones
+    blanches produit : fiduciaire (10 acteurs, tous en workflow), immobilier, construction,
+    RH/éducation. Les cases vides de la colonne "chatbot" signalent au contraire la maturité :
+    plus personne n'y vend de chatbot nu.</p>
+  </div>
+  <div class="card">
+    <h3>Synthèse des zones sous-exploitées</h3>
+    <div class="table-wrap" id="table-zones"></div>
+  </div>
+</section>
+
+<section id="angle" aria-labelledby="h-angle">
+  <h2 id="h-angle">Angle stratégique recommandé</h2>
+  <div class="card">
+    <h3>Sept angles candidats notés sur sept critères</h3>
+    <div class="grid-2">
+      <figure class="chart" id="chart-angles-scores"></figure>
+      <div>
+        <div class="filters" aria-label="Comparaison radar">
+          <label>Comparer l'angle retenu avec
+            <select id="a-compare"></select>
+          </label>
+        </div>
+        <figure class="chart" id="chart-angles-radar"></figure>
+      </div>
+    </div>
+    <p class="lecture">L'angle A (fiduciaires) et l'angle E (construction) sont ex aequo à 27/35 ;
+    A l'emporte pour sa récurrence naturelle, son canal de prescription (plus de 4 200 membres
+    FIDUCIAIRE|SUISSE en 12 sections) et l'effet de levier d'une fiduciaire vers ses dizaines de
+    PME clientes. Notes : estimations raisonnées, grille détaillée dans
+    <code>04_angle_strategique.md</code>.</p>
+  </div>
+  <div class="card">
+    <h3>L'angle retenu : studio d'agents IA pour fiduciaires suisses</h3>
+    <p><strong>Proposition de valeur.</strong> Automatiser les tâches répétitives des fiduciaires
+    (collecte de pièces, relances débiteurs, préparation de déclarations, réponses standardisées)
+    avec des agents hébergés en Suisse, intégrés aux logiciels métier, conformes nLPD, en FR et DE.</p>
+    <p><strong>Offre et prix.</strong> Audit 2 000 à 4 000 CHF ; premier agent en production en
+    6 semaines pour 8 000 à 20 000 CHF ; run 300 à 800 CHF/mois par agent. Prix calés sur les
+    fourchettes publiques observées dans l'étude.</p>
+    <p><strong>Pourquoi c'est défendable.</strong> Données ultra-sensibles (salaires, impôts),
+    26 régimes fiscaux cantonaux, exigence de souveraineté : les barrières du marché suisse
+    deviennent la défense de l'offre face aux produits internationaux.</p>
+    <p><strong>Avant d'engager des moyens.</strong> Test de validation en 30 jours pour moins de
+    2 000 CHF : 30 sollicitations, 8 entretiens, vérification des API des logiciels dominants,
+    une maquette, objectif un pilote signé. Conditions d'invalidation explicites (budget absent,
+    besoin déjà couvert par les plateformes comptables, API inaccessibles) et plan B documenté
+    (angle E, construction) dans <code>04_angle_strategique.md</code>.</p>
+  </div>
+</section>
+
+<section id="sources" aria-labelledby="h-sources">
+  <h2 id="h-sources">Sources et limites</h2>
+  <div class="card">
+    <h3>Limites méthodologiques essentielles</h3>
+    <ul class="note">
+      <li>Sources exclusivement publiques et en ligne, aucun entretien : les prix réels signés et
+      la satisfaction client sont déduits, pas observés.</li>
+      <li>Données déclaratives des sites web ; grille d'agenticité stricte appliquée (doute =
+      niveau inférieur) pour compenser le biais marketing.</li>
+      <li>Champs lacunaires : année de création inconnue pour 45 acteurs, prix publics pour 22
+      seulement, hébergement non précisé pour 38.</li>
+      <li>Recensement non exhaustif : environ 70 acteurs supplémentaires repérés mais non
+      documentés (<code>data/acteurs_annexe.md</code>).</li>
+      <li>Péremption : 6 à 12 mois pour les données concurrentielles, moins pour le réglementaire
+      (AI Act art. 50 applicable dès août 2026, avant-projet suisse attendu fin 2026).</li>
+      <li>Détail complet dans <code>07_limites.md</code>.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Bibliographie</h3>
+    <div class="filters">
+      <label>Filtrer les sources
+        <input type="search" id="s-recherche" placeholder="titre, usage...">
+      </label>
+    </div>
+    <div class="table-wrap" id="table-sources"></div>
+  </div>
+</section>
+
+<footer>
+  Étude réalisée le 23 juillet 2026. Base : <code>data/acteurs.csv</code> (schéma contractuel de
+  20 colonnes). Site statique sans dépendance externe ni appel réseau ; graphiques SVG générés
+  par <code>assets/app.js</code>. Régénération des données : <code>python3 scripts/gen_site_data.py</code>.
+</footer>
+</main>
+
+<div id="tooltip" role="status" aria-hidden="true"></div>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

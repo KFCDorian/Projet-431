@@ -1,0 +1,607 @@
+{
+ "date_etude": "2026-07-23",
+ "kpis": {
+  "nb_acteurs": 84,
+  "nb_cantons": 13,
+  "part_b2b_pct": 90,
+  "nb_b2c": 8,
+  "financement_cumule_musd": 373.9,
+  "nb_agents_autonomes": 11,
+  "nb_prix_publics": 22,
+  "annee_creation_connue": 39
+ },
+ "cantons": [
+  {
+   "canton": "ZH",
+   "n": 37
+  },
+  {
+   "canton": "VD",
+   "n": 15
+  },
+  {
+   "canton": "GE",
+   "n": 5
+  },
+  {
+   "canton": "TI",
+   "n": 5
+  },
+  {
+   "canton": "nd",
+   "n": 4
+  },
+  {
+   "canton": "VS",
+   "n": 4
+  },
+  {
+   "canton": "BE",
+   "n": 3
+  },
+  {
+   "canton": "AG",
+   "n": 2
+  },
+  {
+   "canton": "LU",
+   "n": 2
+  },
+  {
+   "canton": "SG",
+   "n": 2
+  },
+  {
+   "canton": "NE",
+   "n": 2
+  },
+  {
+   "canton": "BL",
+   "n": 1
+  },
+  {
+   "canton": "TG",
+   "n": 1
+  },
+  {
+   "canton": "ZG",
+   "n": 1
+  }
+ ],
+ "segments": {
+  "produit": 36,
+  "service": 37,
+  "conseil": 11
+ },
+ "cibles": {
+  "B2B": 76,
+  "B2B+B2C": 2,
+  "B2C": 6
+ },
+ "maturite": {
+  "chatbot": 4,
+  "RAG": 7,
+  "workflow automatisé": 55,
+  "agents autonomes multi-étapes": 11,
+  "infrastructure": 7
+ },
+ "statuts": {
+  "startup": 19,
+  "editeur": 14,
+  "filiale": 8,
+  "ESN": 7,
+  "agence": 25,
+  "conseil": 11
+ },
+ "hebergement": {
+  "Au choix du client": 10,
+  "Non précisé": 46,
+  "Suisse": 21,
+  "UE": 4,
+  "Suisse ou UE": 3
+ },
+ "verticales": [
+  "Banque et finance",
+  "Industrie et énergie",
+  "Santé et pharma",
+  "Secteur public",
+  "Généraliste / PME tous secteurs",
+  "Retail et e-commerce",
+  "Assurance",
+  "IT et développement",
+  "Juridique",
+  "Hôtellerie et tourisme",
+  "Fiduciaire et comptabilité",
+  "RH et éducation",
+  "Construction et artisanat",
+  "Immobilier",
+  "Grand public",
+  "Télécoms et médias"
+ ],
+ "verticale_segment": {
+  "Banque et finance": {
+   "produit": 14,
+   "service": 13,
+   "conseil": 5
+  },
+  "Industrie et énergie": {
+   "produit": 12,
+   "service": 15,
+   "conseil": 3
+  },
+  "Santé et pharma": {
+   "produit": 11,
+   "service": 13,
+   "conseil": 5
+  },
+  "Secteur public": {
+   "produit": 8,
+   "service": 14,
+   "conseil": 2
+  },
+  "Généraliste / PME tous secteurs": {
+   "produit": 2,
+   "service": 18,
+   "conseil": 4
+  },
+  "Retail et e-commerce": {
+   "produit": 4,
+   "service": 10,
+   "conseil": 2
+  },
+  "Assurance": {
+   "produit": 8,
+   "service": 5,
+   "conseil": 1
+  },
+  "IT et développement": {
+   "produit": 10,
+   "service": 3
+  },
+  "Juridique": {
+   "produit": 3,
+   "service": 7,
+   "conseil": 1
+  },
+  "Hôtellerie et tourisme": {
+   "produit": 2,
+   "service": 8
+  },
+  "Fiduciaire et comptabilité": {
+   "service": 5,
+   "conseil": 2,
+   "produit": 3
+  },
+  "RH et éducation": {
+   "produit": 4,
+   "service": 5
+  },
+  "Construction et artisanat": {
+   "conseil": 1,
+   "service": 6,
+   "produit": 2
+  },
+  "Immobilier": {
+   "service": 7,
+   "produit": 1
+  },
+  "Grand public": {
+   "produit": 3,
+   "service": 1
+  },
+  "Télécoms et médias": {
+   "produit": 2,
+   "service": 1
+  }
+ },
+ "verticale_maturite": {
+  "Banque et finance": {
+   "chatbot": 2,
+   "RAG": 5,
+   "workflow automatisé": 18,
+   "agents autonomes multi-étapes": 4,
+   "infrastructure": 3
+  },
+  "Industrie et énergie": {
+   "chatbot": 1,
+   "RAG": 1,
+   "workflow automatisé": 23,
+   "agents autonomes multi-étapes": 4,
+   "infrastructure": 1
+  },
+  "Santé et pharma": {
+   "chatbot": 1,
+   "RAG": 3,
+   "workflow automatisé": 23,
+   "agents autonomes multi-étapes": 2,
+   "infrastructure": 0
+  },
+  "Secteur public": {
+   "chatbot": 0,
+   "RAG": 3,
+   "workflow automatisé": 19,
+   "agents autonomes multi-étapes": 1,
+   "infrastructure": 1
+  },
+  "Généraliste / PME tous secteurs": {
+   "chatbot": 2,
+   "RAG": 1,
+   "workflow automatisé": 21,
+   "agents autonomes multi-étapes": 0,
+   "infrastructure": 0
+  },
+  "Retail et e-commerce": {
+   "chatbot": 0,
+   "RAG": 1,
+   "workflow automatisé": 11,
+   "agents autonomes multi-étapes": 4,
+   "infrastructure": 0
+  },
+  "Assurance": {
+   "chatbot": 0,
+   "RAG": 2,
+   "workflow automatisé": 9,
+   "agents autonomes multi-étapes": 3,
+   "infrastructure": 0
+  },
+  "IT et développement": {
+   "chatbot": 0,
+   "RAG": 0,
+   "workflow automatisé": 3,
+   "agents autonomes multi-étapes": 6,
+   "infrastructure": 4
+  },
+  "Juridique": {
+   "chatbot": 0,
+   "RAG": 1,
+   "workflow automatisé": 9,
+   "agents autonomes multi-étapes": 1,
+   "infrastructure": 0
+  },
+  "Hôtellerie et tourisme": {
+   "chatbot": 1,
+   "RAG": 0,
+   "workflow automatisé": 7,
+   "agents autonomes multi-étapes": 2,
+   "infrastructure": 0
+  },
+  "Fiduciaire et comptabilité": {
+   "chatbot": 0,
+   "RAG": 0,
+   "workflow automatisé": 10,
+   "agents autonomes multi-étapes": 0,
+   "infrastructure": 0
+  },
+  "RH et éducation": {
+   "chatbot": 0,
+   "RAG": 1,
+   "workflow automatisé": 8,
+   "agents autonomes multi-étapes": 0,
+   "infrastructure": 0
+  },
+  "Construction et artisanat": {
+   "chatbot": 0,
+   "RAG": 0,
+   "workflow automatisé": 9,
+   "agents autonomes multi-étapes": 0,
+   "infrastructure": 0
+  },
+  "Immobilier": {
+   "chatbot": 0,
+   "RAG": 0,
+   "workflow automatisé": 8,
+   "agents autonomes multi-étapes": 0,
+   "infrastructure": 0
+  },
+  "Grand public": {
+   "chatbot": 1,
+   "RAG": 1,
+   "workflow automatisé": 0,
+   "agents autonomes multi-étapes": 1,
+   "infrastructure": 1
+  },
+  "Télécoms et médias": {
+   "chatbot": 0,
+   "RAG": 0,
+   "workflow automatisé": 2,
+   "agents autonomes multi-étapes": 1,
+   "infrastructure": 0
+  }
+ },
+ "creations_par_annee": {
+  "2012": 1,
+  "2014": 1,
+  "2016": 1,
+  "2017": 4,
+  "2018": 2,
+  "2019": 1,
+  "2020": 3,
+  "2021": 6,
+  "2022": 1,
+  "2023": 2,
+  "2024": 3,
+  "2025": 2
+ },
+ "creations_nd": 45,
+ "levees": [
+  {
+   "annee": 2024,
+   "societe": "EthonAI",
+   "montant": 16.5,
+   "devise": "USD",
+   "tour": "Series A",
+   "fiabilite": "élevée"
+  },
+  {
+   "annee": 2024,
+   "societe": "Lakera",
+   "montant": 20,
+   "devise": "USD",
+   "tour": "Series A",
+   "fiabilite": "élevée"
+  },
+  {
+   "annee": 2024,
+   "societe": "Calvin Risk",
+   "montant": 4,
+   "devise": "USD",
+   "tour": "Seed",
+   "fiabilite": "élevée"
+  },
+  {
+   "annee": 2025,
+   "societe": "Unique",
+   "montant": 30,
+   "devise": "USD",
+   "tour": "Series A",
+   "fiabilite": "élevée"
+  },
+  {
+   "annee": 2025,
+   "societe": "LogicStar AI",
+   "montant": 3,
+   "devise": "USD",
+   "tour": "Pre-seed",
+   "fiabilite": "élevée"
+  },
+  {
+   "annee": 2025,
+   "societe": "nunu.ai",
+   "montant": 6,
+   "devise": "USD",
+   "tour": "Seed",
+   "fiabilite": "élevée"
+  },
+  {
+   "annee": 2025,
+   "societe": "DeepJudge",
+   "montant": 41.2,
+   "devise": "USD",
+   "tour": "Series A",
+   "fiabilite": "élevée"
+  },
+  {
+   "annee": 2025,
+   "societe": "Omnilex",
+   "montant": 4.5,
+   "devise": "USD",
+   "tour": "Seed",
+   "fiabilite": "élevée"
+  },
+  {
+   "annee": 2025,
+   "societe": "Wonderful AI (siège européen Zurich)",
+   "montant": 100,
+   "devise": "USD",
+   "tour": "Series A",
+   "fiabilite": "moyenne"
+  },
+  {
+   "annee": 2026,
+   "societe": "Rivia",
+   "montant": 15,
+   "devise": "USD",
+   "tour": "Series A",
+   "fiabilite": "élevée"
+  },
+  {
+   "annee": 2026,
+   "societe": "General Intuition (équipe genevoise, société d'origine US)",
+   "montant": 133.7,
+   "devise": "USD",
+   "tour": "Seed",
+   "fiabilite": "moyenne"
+  },
+  {
+   "annee": 2026,
+   "societe": "AlpineAI",
+   "montant": null,
+   "devise": "CHF",
+   "tour": "Seed (montant non divulgué)",
+   "fiabilite": "élevée"
+  }
+ ],
+ "levees_par_annee": {
+  "2024": 40.5,
+  "2025": 184.7,
+  "2026": 148.7
+ },
+ "criteres_angles": [
+  "Taille du besoin",
+  "Concurrence (5 = faible)",
+  "Difficulté technique (5 = faible)",
+  "Cycle de vente (5 = court)",
+  "Capital (5 = faible)",
+  "Défendabilité",
+  "Délai 1er revenu (5 = court)"
+ ],
+ "angles": [
+  {
+   "id": "A",
+   "nom": "Fiduciaires et cabinets comptables",
+   "scores": [
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4
+   ],
+   "retenu": true,
+   "total": 27
+  },
+  {
+   "id": "B",
+   "nom": "Secteur public romand",
+   "scores": [
+    4,
+    4,
+    2,
+    1,
+    3,
+    3,
+    1
+   ],
+   "retenu": false,
+   "total": 18
+  },
+  {
+   "id": "C",
+   "nom": "PME généraliste trilingue",
+   "scores": [
+    5,
+    1,
+    2,
+    3,
+    2,
+    1,
+    3
+   ],
+   "retenu": false,
+   "total": 17
+  },
+  {
+   "id": "D",
+   "nom": "Souveraineté professions à secret",
+   "scores": [
+    4,
+    3,
+    2,
+    2,
+    2,
+    4,
+    2
+   ],
+   "retenu": false,
+   "total": 19
+  },
+  {
+   "id": "E",
+   "nom": "Construction et artisanat",
+   "scores": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4
+   ],
+   "retenu": false,
+   "total": 27
+  },
+  {
+   "id": "F",
+   "nom": "B2C / prosumer payant",
+   "scores": [
+    2,
+    3,
+    3,
+    5,
+    2,
+    2,
+    3
+   ],
+   "retenu": false,
+   "total": 20
+  },
+  {
+   "id": "G",
+   "nom": "Hôtellerie et tourisme",
+   "scores": [
+    3,
+    4,
+    4,
+    4,
+    4,
+    2,
+    4
+   ],
+   "retenu": false,
+   "total": 25
+  }
+ ],
+ "tam_sam_som": [
+  {
+   "niveau": "TAM",
+   "libelle": "Marché suisse total à horizon 2028",
+   "bas": 700,
+   "haut": 1000,
+   "unite": "M CHF/an",
+   "statut": "estimation",
+   "hypothese": "Bottom-up par étage de clientèle (OFS/STATENT) : pénétration 5 à 60 % selon la taille, paniers de 2 400 à 300 000 CHF/an"
+  },
+  {
+   "niveau": "SAM",
+   "libelle": "PME romandes + fiduciaires (entrant romand)",
+   "bas": 40,
+   "haut": 80,
+   "unite": "M CHF/an",
+   "statut": "estimation",
+   "hypothese": "Restriction aux étages PME de Suisse romande (~25 % du tissu) plus la verticale fiduciaire nationale"
+  },
+  {
+   "niveau": "SOM",
+   "libelle": "Captable à 24 mois (petite équipe)",
+   "bas": 0.15,
+   "haut": 0.6,
+   "unite": "M CHF/an",
+   "statut": "hypothèse",
+   "hypothese": "0,3 à 1 % du SAM : 10 à 25 clients à 6 000-25 000 CHF de projet plus run mensuel (prix publics observés)"
+  }
+ ],
+ "zones_blanches": [
+  {
+   "zone": "B2C et prosumer agentique",
+   "constat": "6 acteurs B2C seulement, aucun au-delà du workflow, freemium dominant",
+   "source": "acteurs.csv + recherche/05"
+  },
+  {
+   "zone": "Fiduciaire et comptabilité en produit",
+   "constat": "10 acteurs, tous agences ou conseil en workflow, aucun éditeur dédié",
+   "source": "acteurs.csv"
+  },
+  {
+   "zone": "Secteur public à haute autonomie",
+   "constat": "24 acteurs mais un seul agent autonome (Swisscom) ; demande réelle : AO fédéral 57 M CHF",
+   "source": "acteurs.csv + recherche/08"
+  },
+  {
+   "zone": "Cantons sans acteur",
+   "constat": "12 cantons sur 26 sans aucun acteur recensé, dont Bâle-Ville, Fribourg, le Jura et les Grisons",
+   "source": "acteurs.csv"
+  },
+  {
+   "zone": "Multilinguisme FR/DE/IT natif",
+   "constat": "Agences romandes en FR, alémaniques en DE ; très rares offres nativement trilingues",
+   "source": "recherche/01 et 02"
+  },
+  {
+   "zone": "Hébergement souverain prouvé",
+   "constat": "38 acteurs sur 84 ne précisent pas leur hébergement malgré l'argument marketing",
+   "source": "acteurs.csv"
+  }
+ ],
+ "sources": []
+}

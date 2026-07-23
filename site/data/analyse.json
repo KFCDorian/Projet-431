@@ -599,7 +599,7 @@
   },
   {
    "zone": "Hébergement souverain prouvé",
-   "constat": "38 acteurs sur 84 ne précisent pas leur hébergement malgré l'argument marketing",
+   "constat": "46 acteurs sur 84 ne précisent pas la localisation de leur hébergement malgré l'argument marketing",
    "source": "acteurs.csv"
   }
  ],

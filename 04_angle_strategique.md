@@ -8,7 +8,7 @@ Date : 23 juillet 2026. Fondé sur les zones blanches de `02_tableaux_comparatif
 | A | Agents IA pour fiduciaires et cabinets comptables suisses | 10 acteurs touchent la verticale, tous en workflow générique, aucun produit ni studio dédié [FAIT, CSV] |
 | B | Agents conformes pour le secteur public romand (communes, cantons) | 24 acteurs sur la verticale mais un seul au niveau agent autonome (Swisscom) ; demande prouvée par l'AO fédéral de 57 M CHF et le chatbot fribourgeois [FAIT] |
 | C | Copilote agentique généraliste PME multilingue FR/DE/IT | Rareté des offres nativement trilingues [FAIT, recherche/01-02] |
-| D | "Souveraineté prouvée" : agents pour professions à secret (avocats, médecins) avec hébergement suisse certifié et auditable | 38 acteurs sur 84 ne documentent pas leur hébergement malgré l'argument marketing [FAIT, CSV] ; secret professionnel art. 321 CP comme moteur [FAIT, recherche/07] |
+| D | "Souveraineté prouvée" : agents pour professions à secret (avocats, médecins) avec hébergement suisse certifié et auditable | 46 acteurs sur 84 ne documentent pas la localisation de leur hébergement malgré l'argument marketing [FAIT, CSV] ; secret professionnel art. 321 CP comme moteur [FAIT, recherche/07] |
 | E | Agents pour construction et artisanat (devis, planification, facturation) | 9 acteurs en workflow, aucun au-delà, aucun produit dédié [FAIT, CSV] |
 | F | Assistant agentique B2C/prosumer suisse payant | 6 acteurs B2C, aucun au-delà du workflow, freemium dominant [FAIT, CSV + recherche/05] |
 | G | Agents multilingues pour hôtellerie et tourisme | 10 acteurs en périphérie, aucun agent autonome dédié [FAIT, CSV] |

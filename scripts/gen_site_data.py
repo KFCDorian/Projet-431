@@ -143,7 +143,7 @@ zones_blanches = [
     {"zone": "Secteur public à haute autonomie", "constat": "24 acteurs mais un seul agent autonome (Swisscom) ; demande réelle : AO fédéral 57 M CHF", "source": "acteurs.csv + recherche/08"},
     {"zone": "Cantons sans acteur", "constat": "12 cantons sur 26 sans aucun acteur recensé, dont Bâle-Ville, Fribourg, le Jura et les Grisons", "source": "acteurs.csv"},
     {"zone": "Multilinguisme FR/DE/IT natif", "constat": "Agences romandes en FR, alémaniques en DE ; très rares offres nativement trilingues", "source": "recherche/01 et 02"},
-    {"zone": "Hébergement souverain prouvé", "constat": "38 acteurs sur 84 ne précisent pas leur hébergement malgré l'argument marketing", "source": "acteurs.csv"},
+    {"zone": "Hébergement souverain prouvé", "constat": "46 acteurs sur 84 ne précisent pas la localisation de leur hébergement malgré l'argument marketing", "source": "acteurs.csv"},
 ]
 
 analyse = {

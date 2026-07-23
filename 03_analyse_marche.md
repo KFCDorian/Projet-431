@@ -71,7 +71,7 @@ Observations : la valeur se concentre aux deux extrémités, à savoir la couche
 ## 5. Barrières à l'entrée spécifiques à la Suisse
 - Confiance et réseau : le marché suisse achète par recommandation ; sans références locales, cycles très longs. C'est la barrière numéro un citée dans les deux cartographies.
 - Langues : une offre crédible nationale exige FR + DE (et idéalement IT) jusque dans les agents eux-mêmes ; les produits internationaux traitent mal le suisse-allemand parlé (opportunité documentée : Recapp IT, `recherche/03`).
-- Souveraineté des données : exigence portée par le secret bancaire (art. 47 LB), le secret professionnel (art. 321 CP) et la pratique de marché plus que par la nLPD elle-même (`recherche/07`) ; 38 acteurs sur 84 ne documentent pourtant pas leur hébergement, l'écart discours/preuve est une barrière ou une arme.
+- Souveraineté des données : exigence portée par le secret bancaire (art. 47 LB), le secret professionnel (art. 321 CP) et la pratique de marché plus que par la nLPD elle-même (`recherche/07`) ; 46 acteurs sur 84 ne documentent pourtant pas la localisation de leur hébergement, l'écart discours/preuve est une barrière ou une arme.
 - Conformité sectorielle : FINMA (communication 08/2024, outsourcing 2018/3) impose gouvernance et droits d'audit répercutés sur tout prestataire servant la finance ; l'article 50 de l'AI Act s'applique dès le 02.08.2026 aux chatbots dont l'output atteint l'UE.
 - Cycles de vente longs en grands comptes (6-18 mois) ; à l'inverse, cycles courts en PME (semaines) mais paniers modestes.
 - Capital : faible pour une offre de service (dizaines de kCHF), élevé pour un produit compétitif face aux plateformes internationales (les Series A locales sont à 30-42 M USD).

@@ -603,5 +603,1945 @@
    "source": "acteurs.csv"
   }
  ],
- "sources": []
+ "sources": [
+  {
+   "titre": "Unique AI (site et blog, communiqué série A)",
+   "url": "https://www.unique.ai/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01, 03, 06 (fiche éditeur, financement)"
+  },
+  {
+   "titre": "Typewise",
+   "url": "https://www.typewise.app/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche éditeur)"
+  },
+  {
+   "titre": "DeepJudge",
+   "url": "https://www.deepjudge.ai/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01, 03 (fiche éditeur legaltech)"
+  },
+  {
+   "titre": "Squirro (site et communiqués Synaptica, Fintech Top50)",
+   "url": "https://www.squirro.com/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01, 03, 06 (fiche éditeur, acquisitions)"
+  },
+  {
+   "titre": "AlpineAI / SwissGPT (alpineai.swiss et swissgpt.ai)",
+   "url": "https://www.alpineai.swiss/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (offre), moyenne (siège, effectif)",
+   "usage": "01, 03, 04 (fiche IA souveraine)"
+  },
+  {
+   "titre": "aiaibot (swiss moonshot AG)",
+   "url": "https://www.aiaibot.com/de/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche éditeur)"
+  },
+  {
+   "titre": "Enterprise Bot",
+   "url": "https://www.enterprisebot.ai/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche éditeur)"
+  },
+  {
+   "titre": "Spitch",
+   "url": "https://spitch.ai/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche technologies vocales)"
+  },
+  {
+   "titre": "Parashift",
+   "url": "https://parashift.ai/de/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche IDP)"
+  },
+  {
+   "titre": "Evoya AI (site et page prix)",
+   "url": "https://evoya.ai/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche plateforme PME)"
+  },
+  {
+   "titre": "nunu.ai",
+   "url": "https://nunu.ai/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (entité US, ancrage suisse à confirmer)",
+   "usage": "01, 03 (fiche agents QA jeux vidéo)"
+  },
+  {
+   "titre": "LogicStar AI (site et blog levée)",
+   "url": "https://www.logicstar.ai/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "01, 03 (fiche agents de code)"
+  },
+  {
+   "titre": "ti&m AI Agents Hub (page produit et blog)",
+   "url": "https://www.ti8m.com/en/products/AI-Agents-Hub",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01, 04 (fiche intégrateur)"
+  },
+  {
+   "titre": "Apptiva",
+   "url": "https://apptiva.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche Bubble Chat)"
+  },
+  {
+   "titre": "NETNODE",
+   "url": "https://netnode.ch/de/ai-agentur",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche agence IA)"
+  },
+  {
+   "titre": "CorpIn",
+   "url": "https://www.corpin.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche spin-off HSG)"
+  },
+  {
+   "titre": "Sidora",
+   "url": "https://www.sidora.ch/de/ki-agentur-schweiz",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01, 04 (fiche agence, prix publics)"
+  },
+  {
+   "titre": "Kigent (Prozessionell GmbH)",
+   "url": "https://kigent.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "01, 04 (fiche agence agents IA)"
+  },
+  {
+   "titre": "einclick",
+   "url": "https://www.einclick.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "01 (fiche agence)"
+  },
+  {
+   "titre": "D4design Studios",
+   "url": "https://d4design.ch/services/ki-agentur/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "01 (fiche agence digitale)"
+  },
+  {
+   "titre": "the aigency",
+   "url": "https://theaigency.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "01 (fiche agence)"
+  },
+  {
+   "titre": "apexAI (Elevate Solutions)",
+   "url": "https://apex-ai.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "01 (fiche agence)"
+  },
+  {
+   "titre": "Huber Solution",
+   "url": "https://h-solution.ch/ki-assistenten-ostschweiz/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "01 (fiche assistants vocaux)"
+  },
+  {
+   "titre": "ASIMBA LABS",
+   "url": "https://www.asimba.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "faible (page partiellement chargée)",
+   "usage": "01 (fiche agence)"
+  },
+  {
+   "titre": "ipt - Innovation Process Technology",
+   "url": "https://ipt.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (acteur repéré)"
+  },
+  {
+   "titre": "Unit8 (site, série \"From Hype to Impact\")",
+   "url": "https://unit8.com/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01, 02, 04 (fiche boutique data/IA, cadre d'adoption)"
+  },
+  {
+   "titre": "Paixon",
+   "url": "https://www.paixon.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (site de transition vers Taskbase)",
+   "usage": "01 (acteur repéré)"
+  },
+  {
+   "titre": "Hyperion AI",
+   "url": "https://www.gethyperion.ai/about",
+   "date": "2026-07-23",
+   "fiabilite": "faible (contenu générique, incohérences)",
+   "usage": "01 (acteur non retenu)"
+  },
+  {
+   "titre": "Visium (pages about et agentic-platform)",
+   "url": "https://www.visium.com/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (offre), moyenne (données d'entreprise)",
+   "usage": "02, 03, 04 (fiche conseil et plateforme agentique)"
+  },
+  {
+   "titre": "inait",
+   "url": "https://www.inait.ai/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (site peu détaillé)",
+   "usage": "02 (fiche deeptech)"
+  },
+  {
+   "titre": "ELCA (site et page plateforme data/IA banque-assurance)",
+   "url": "https://www.elca.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (offre), moyenne (données d'entreprise)",
+   "usage": "02, 04, 07 (fiche intégrateur, cloud souverain)"
+  },
+  {
+   "titre": "Sonar (SonarSource)",
+   "url": "https://www.sonarsource.com/company/about/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche éditeur)"
+  },
+  {
+   "titre": "DKDP",
+   "url": "https://dkdp.ch/intelligence-artificielle",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (offre), moyenne (chiffres déclaratifs)",
+   "usage": "02 (fiche agence)"
+  },
+  {
+   "titre": "i-fixit",
+   "url": "https://i-fixit.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "02 (fiche agence)"
+  },
+  {
+   "titre": "HeyPapaya",
+   "url": "https://www.heypapaya.ch/en/ai-agency-geneva/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche agence)"
+  },
+  {
+   "titre": "Agence iA",
+   "url": "https://agenceia.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "02, 04 (fiche agence)"
+  },
+  {
+   "titre": "NeurokAI",
+   "url": "https://neurok.ai/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (offre), moyenne (références anonymisées)",
+   "usage": "02 (fiche agence)"
+  },
+  {
+   "titre": "AVQN",
+   "url": "https://www.avqn.ch/services/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche consultant)"
+  },
+  {
+   "titre": "OGFactory",
+   "url": "https://ogfactory.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche agence)"
+  },
+  {
+   "titre": "Fusengine",
+   "url": "https://fusengine.ch/solutions/services-ia/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche agence)"
+  },
+  {
+   "titre": "Mivelaz Consulting",
+   "url": "https://mivelaz-consulting.ch/services/intelligence-artificielle-pme-suisse",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche conseil)"
+  },
+  {
+   "titre": "Les Précurseurs Lab",
+   "url": "https://www.lesprecurseurslab.ai/fr/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (offre et prix)",
+   "usage": "02 (fiche studio IA)"
+  },
+  {
+   "titre": "Voixia (KeWeb)",
+   "url": "https://voixia.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche agents vocaux)"
+  },
+  {
+   "titre": "KeWeb",
+   "url": "https://keweb.ch/creation-intelligence-artificielle-valais/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche agence valaisanne)"
+  },
+  {
+   "titre": "FlowBiz",
+   "url": "https://flowbiz.ai/en",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche consultant)"
+  },
+  {
+   "titre": "Inno-Mation",
+   "url": "https://inno-mation.com/agence-automatisation-suisse-romande",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (chiffres déclaratifs, siège à confirmer)",
+   "usage": "02 (fiche agence)"
+  },
+  {
+   "titre": "Vudu AI Labs",
+   "url": "https://www.vudu.ch/en/ticino/servizi-ai",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche studio tessinois)"
+  },
+  {
+   "titre": "Cervo.AI",
+   "url": "https://cervo.ai/chatbot-intelligenza-artificiale",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "02 (fiche chatbots)"
+  },
+  {
+   "titre": "DigiLuxe AI",
+   "url": "https://www.digiluxeai.com/automazione-processi-aziendali-ai-ticino-lugano/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "02 (fiche agence)"
+  },
+  {
+   "titre": "We Are Organica",
+   "url": "https://www.organica.agency/integrazione-intelligenza-artificiale-in-azienda-lugano-ticino.asp",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "02 (fiche agence)"
+  },
+  {
+   "titre": "Coteries",
+   "url": "https://coteries.com/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (constat de pivot hors IA)",
+   "usage": "02 (acteur écarté)"
+  },
+  {
+   "titre": "RWAI",
+   "url": "https://rwai.ch/en",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (constat de cessation d'activité)",
+   "usage": "02 (acteur écarté)"
+  },
+  {
+   "titre": "IA Swiss",
+   "url": "https://iaswiss.com/",
+   "date": "2026-07-23",
+   "fiabilite": "faible (site inaccessible, erreur 403)",
+   "usage": "02 (fiche via extraits de recherche)"
+  },
+  {
+   "titre": "Artificialy",
+   "url": "https://www.artificialy.com/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (erreur 403, recoupé par sources institutionnelles)",
+   "usage": "02 (fiche startup tessinoise)"
+  },
+  {
+   "titre": "Invariant Labs",
+   "url": "https://invariantlabs.ai",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (fiche spin-off ETH, sécurité d'agents)"
+  },
+  {
+   "titre": "Lakera",
+   "url": "https://www.lakera.ai",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (fiche sécurité IA)"
+  },
+  {
+   "titre": "LatticeFlow AI",
+   "url": "https://latticeflow.ai",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (fiche gouvernance IA)"
+  },
+  {
+   "titre": "Calvin Risk",
+   "url": "https://www.calvin-risk.com",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (fiche gouvernance des risques)"
+  },
+  {
+   "titre": "Omnilex",
+   "url": "https://omnilex.ai",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (financement), moyenne (reste)",
+   "usage": "03 (fiche legaltech)"
+  },
+  {
+   "titre": "Giotto.ai (site et cloud.giotto.ai)",
+   "url": "https://www.giotto.ai",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "03, 05 (fiche modèles de raisonnement, offre grand public)"
+  },
+  {
+   "titre": "Supertext",
+   "url": "https://www.supertext.com",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (fiche spin-off UZH)"
+  },
+  {
+   "titre": "Recapp IT",
+   "url": "https://www.recapp.ch",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "03 (fiche spin-off Idiap)"
+  },
+  {
+   "titre": "EthonAI (site et communiqué seed)",
+   "url": "https://ethon.ai",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03, 06 (fiche cas frontière, financement)"
+  },
+  {
+   "titre": "Deloitte Suisse (page Agentic AI)",
+   "url": "https://www.deloitte.com/ch/en/what-we-do/capabilities/agentic-ai.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (offre), faible (livraisons suisses)",
+   "usage": "04 (fiche Big Four)"
+  },
+  {
+   "titre": "PwC Suisse (page AI agents, agent OS, communiqué CHF 50 M)",
+   "url": "https://www.pwc.ch/en/services/artificial-intelligence/ai-agents.html",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (fetch bloqué 403, via extraits)",
+   "usage": "04 (fiche Big Four)"
+  },
+  {
+   "titre": "EY Suisse (page Agentic AI, newsroom AI Trends 2026)",
+   "url": "https://www.ey.com/en_ch/services/ai/agentic-ai",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (offre), faible (références suisses)",
+   "usage": "04 (fiche Big Four, étude AI Trends 2026)"
+  },
+  {
+   "titre": "KPMG Suisse (pages KI Transformation, Trusted AI)",
+   "url": "https://kpmg.com/ch/de/themen/kuenstliche-intelligenz.html",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (forte réserve sur les chiffres, rapport retiré)",
+   "usage": "04 (fiche Big Four)"
+  },
+  {
+   "titre": "Accenture (site suisse et newsroom Distiller)",
+   "url": "https://www.accenture.com/ch-en",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "04 (fiche ESN)"
+  },
+  {
+   "titre": "IBM (watsonx Orchestrate et newsroom Phoenix Technologies)",
+   "url": "https://www.ibm.com/products/watsonx-orchestrate",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (produit), faible (références suisses)",
+   "usage": "04 (fiche IBM Consulting)"
+  },
+  {
+   "titre": "Capgemini Suisse (bibliothèque AI agents et page solutions)",
+   "url": "https://www.capgemini.com/ch-en/insights/research-library/ai-agents/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (offre groupe), faible (spécificité suisse)",
+   "usage": "04 (fiche ESN, rapport \"Rise of agentic AI\")"
+  },
+  {
+   "titre": "adesso Schweiz",
+   "url": "https://www.adesso.ch",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "04 (fiche ESN)"
+  },
+  {
+   "titre": "Zühlke (pages AI implementation et ZAG)",
+   "url": "https://www.zuehlke.com/en/expertise/ai-implementation",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "04 (fiche ESN)"
+  },
+  {
+   "titre": "Adnovum",
+   "url": "https://www.adnovum.com",
+   "date": "2026-07-23",
+   "fiabilite": "faible sur l'agentique (consulté via tiers)",
+   "usage": "04 (fiche ESN)"
+  },
+  {
+   "titre": "Swisscom (pages et communiqués : Swiss AI Platform, myAI, Swiss AI Assistant, Apertus, partenariat NVIDIA, B2B Mag)",
+   "url": "https://www.swisscom.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (source officielle, auto-déclaratif pour les performances)",
+   "usage": "03, 04, 05, 06, 07, 08 (plateforme souveraine, offre B2C, partenariats)"
+  },
+  {
+   "titre": "Ergon Informatik",
+   "url": "https://www.ergon.ch/en/services/data-and-artificial-intelligence",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "04 (fiche ESN)"
+  },
+  {
+   "titre": "isolutions (news Copilot et page M365 Copilot)",
+   "url": "https://www.isolutions.ch/en/news/copilot-agents-as-far-as-the-eye-can-see/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "04 (fiche intégrateur Microsoft)"
+  },
+  {
+   "titre": "D ONE",
+   "url": "https://d-one.ai",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (faible sur l'agentique)",
+   "usage": "04 (fiche boutique data)"
+  },
+  {
+   "titre": "Edana",
+   "url": "https://edana.ch/developpement-agents-ia-suisse/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (auto-déclaratif)",
+   "usage": "04 (fiche agence)"
+  },
+  {
+   "titre": "Artefact (communiqué acquisition Effixis)",
+   "url": "https://www.artefact.com/news/artefact-announces-acquisition-of-effixis-to-enhance-ai-consulting-services-and-generative-ai-capabilities/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué)",
+   "usage": "02, 04 (fiche Effixis/Artefact)"
+  },
+  {
+   "titre": "OpenAI (page partenaire Unit8)",
+   "url": "https://openai.com/business/partners/unit8/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "04 (partenariat Unit8-OpenAI)"
+  },
+  {
+   "titre": "AWS Blog (Swisscom et Bedrock AgentCore)",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-swisscom-builds-enterprise-agentic-ai-for-customer-support-and-sales-using-amazon-bedrock-agentcore/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "04 (architecture agentique Swisscom)"
+  },
+  {
+   "titre": "AWS Blog (Apertus sur SageMaker)",
+   "url": "https://aws.amazon.com/blogs/alps/switzerlands-open-source-apertus-llms-now-available-on-amazon-sagemaker-ai/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (diffusion d'Apertus)"
+  },
+  {
+   "titre": "Infomaniak Euria",
+   "url": "https://euria.infomaniak.com",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (via presse concordante)",
+   "usage": "05 (fiche assistant B2C)"
+  },
+  {
+   "titre": "Selma Finance (site, page tarifs, annonce Selma AI)",
+   "url": "https://www.selma.com",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (tarifs), moyenne (chiffres d'usage)",
+   "usage": "05 (fiche robo-advisor)"
+  },
+  {
+   "titre": "KI Helfer",
+   "url": "https://kihelfer.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (auto-déclaratif)",
+   "usage": "05 (fiche prosumer)"
+  },
+  {
+   "titre": "Magic Heidi",
+   "url": "https://magicheidi.ch/fr",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (prix), moyenne (chiffres d'usage)",
+   "usage": "05 (fiche prosumer)"
+  },
+  {
+   "titre": "Suisse Voice",
+   "url": "https://suisse-voice.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (auto-déclaratif)",
+   "usage": "05 (fiche agents vocaux prosumer)"
+  },
+  {
+   "titre": "eTax.ch (Ringler Informatik)",
+   "url": "https://etax.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (acteur établi)",
+   "usage": "05 (fiche fiscalité B2C)"
+  },
+  {
+   "titre": "Helvetia (page chatbot Clara et communiqué 2023)",
+   "url": "https://www.helvetia.com/ch/web/en/private-customers/contact/services/ask-clara.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "05, 08 (assistant B2C, cas en production)"
+  },
+  {
+   "titre": "iqtax",
+   "url": "https://iqtax.webflow.io/",
+   "date": "2026-07-23",
+   "fiabilite": "faible (site précoce)",
+   "usage": "05 (offre annoncée)"
+  },
+  {
+   "titre": "Steuerixy",
+   "url": "https://steuerixy.com/",
+   "date": "2026-07-23",
+   "fiabilite": "faible (non vérifié)",
+   "usage": "05 (offre annoncée)"
+  },
+  {
+   "titre": "BSI Software (newsroom Customer Agents)",
+   "url": "https://www.bsi-software.com/en/newsroom/bsi-software-introduces-customer-agents",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (vu via extraits)",
+   "usage": "01 (fiche éditeur CRM)"
+  },
+  {
+   "titre": "Neural Concept (communiqué série C)",
+   "url": "https://www.neuralconcept.com/post/neural-concept-closes-100m-funding-round-led-by-growth-equity-at-goldman-sachs-alternatives-to-scale-ai-native-engineering",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué primaire)",
+   "usage": "06 (levée de fonds)"
+  },
+  {
+   "titre": "Check Point (communiqué acquisition Lakera)",
+   "url": "https://www.checkpoint.com/press-releases/check-point-acquires-lakera-to-deliver-end-to-end-ai-security-for-enterprises/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué primaire, sans montant)",
+   "usage": "03, 06 (acquisition Lakera)"
+  },
+  {
+   "titre": "Microsoft (communiqué investissement Suisse)",
+   "url": "https://news.microsoft.com/source/emea/features/switzerlands-digital-future-microsofts-commitment/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué primaire)",
+   "usage": "06 (implantation datacenters)"
+  },
+  {
+   "titre": "Salesforce (communiqué 1 Md USD en Suisse)",
+   "url": "https://www.salesforce.com/news/press-releases/2026/07/07/1-billion-ai-transformation-investment-switzerland/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué)",
+   "usage": "02, 04 (contexte marché agentique)"
+  },
+  {
+   "titre": "Index Ventures (perspective EthonAI série A)",
+   "url": "https://www.indexventures.com/perspectives/ethonai-series-a/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (financement EthonAI)"
+  },
+  {
+   "titre": "Safe Swiss Cloud",
+   "url": "https://safeswisscloud.com/en/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (source commerciale)",
+   "usage": "07 (offres cloud souverain)"
+  },
+  {
+   "titre": "Sunrise (sovereign Swiss AI)",
+   "url": "https://www.sunrise.ch/business/en/technology-innovation/sovereign-swiss-ai",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (source commerciale)",
+   "usage": "07 (offres cloud souverain)"
+  },
+  {
+   "titre": "Exoscale (blog fournisseurs européens)",
+   "url": "https://www.exoscale.com/blog/european-cloud-providers/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (source commerciale)",
+   "usage": "07 (offres cloud souverain)"
+  },
+  {
+   "titre": "Startupticker (Unique lève 30 M USD)",
+   "url": "https://www.startupticker.ch/en/news/unique-secures-usd-30-million-to-pioneer-agentic-ai-workforce-in-financial-services",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01, 02, 03, 06 (financement Unique)"
+  },
+  {
+   "titre": "Startupticker (aiaibot, croissance et expansion)",
+   "url": "https://www.startupticker.ch/en/news/aiaibot-starkes-wachstum-und-geplante-expansion",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche aiaibot)"
+  },
+  {
+   "titre": "Startupticker (AlpineAI, seed \"double-digit million\")",
+   "url": "https://www.startupticker.ch/en/news/alpineai-raises-double-digit-million-seed-round-for-sovereign-ai",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01, 06 (financement AlpineAI)"
+  },
+  {
+   "titre": "Startupticker (Sonar acquiert AutoCodeRover)",
+   "url": "https://www.startupticker.ch/en/news/sonar-to-supercharge-developers-with-autocoderove-ai-agents",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche Sonar)"
+  },
+  {
+   "titre": "Startupticker (profil Visium)",
+   "url": "https://www.startupticker.ch/en/company/visium-techologies-sa",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (fiche Visium)"
+  },
+  {
+   "titre": "Startupticker (Rivia, série A 15 M USD)",
+   "url": "https://www.startupticker.ch/en/news/rivia-raises-15m-series-a-to-bring-clinical-trials-into-the-agentic-ai-era",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02, 06 (financement Rivia)"
+  },
+  {
+   "titre": "Startupticker (DeepJudge, série A 41,2 M USD)",
+   "url": "https://www.startupticker.ch/en/news/deepjudge-closes-41-2m-series-a-round",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (financement DeepJudge)"
+  },
+  {
+   "titre": "Startupticker (General Intuition, 134 M USD)",
+   "url": "https://www.startupticker.ch/en/news/general-intuition-raises-usd-134-million",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (financement)"
+  },
+  {
+   "titre": "Startupticker (Check Point acquiert Lakera)",
+   "url": "https://www.startupticker.ch/en/news/check-point-to-acquire-lakera",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (acquisition)"
+  },
+  {
+   "titre": "Startupticker (nunu.ai, seed 6 M USD)",
+   "url": "https://www.startupticker.ch/en/news/nunu-ai-closes-6-million-seed-round",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (financement nunu.ai)"
+  },
+  {
+   "titre": "Startupticker (LogicStar, 3 M pré-seed)",
+   "url": "https://www.startupticker.ch/en/news/three-million-to-make-self-healing-software-a-reality",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (financement LogicStar)"
+  },
+  {
+   "titre": "Startupticker (EY Startup Barometer 2026)",
+   "url": "https://www.startupticker.ch/en/news/ey-startup-barometer-invested-capital-rebounds-ai-gaining-importance",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (contexte macro VC)"
+  },
+  {
+   "titre": "Startupticker (la Suisse, hub deep tech)",
+   "url": "https://www.startupticker.ch/en/news/switzerland-extends-its-lead-as-deep-tech-hub",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (contexte deep tech)"
+  },
+  {
+   "titre": "Startupticker (Swiss AI assistants on the rise)",
+   "url": "https://www.startupticker.ch/en/news/swiss-ai-assistants-on-the-rise",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (chiffres d'entreprise)",
+   "usage": "05 (fiches Selma, Earny)"
+  },
+  {
+   "titre": "TechCrunch (Unique lève 30 M USD)",
+   "url": "https://techcrunch.com/2025/02/27/unique-a-swiss-ai-platform-for-finance-raises-30m/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01, 03, 06 (financement Unique)"
+  },
+  {
+   "titre": "TechCrunch (LatticeFlow lève 2,8 M USD)",
+   "url": "https://techcrunch.com/2021/01/19/eth-spin-off-latticeflow-raises-2-8m-to-help-build-trustworthy-ai-systems",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (financement LatticeFlow)"
+  },
+  {
+   "titre": "TechCrunch (EthonAI lève 16,5 M USD)",
+   "url": "https://techcrunch.com/2024/05/30/ai-manufacturing-startup-funding-is-on-a-tear-as-switzerlands-ethonai-raises-16-5m/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (financement EthonAI)"
+  },
+  {
+   "titre": "MoneyToday (Wonderful AI ouvre à Zurich)",
+   "url": "https://www.moneytoday.ch/news/wonderful-ai-startup-fuer-ki-agenten-eroeffnet-standort-in-zuerich",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (article du 13.11.2025)",
+   "usage": "01 (fiche Wonderful AI)"
+  },
+  {
+   "titre": "tech.eu (Squirro lève 4 M USD)",
+   "url": "https://tech.eu/2022/02/24/swiss-startup-squirro-lands-4-million-funding-as-it-buys-us-based-ai-platform/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "01 (fiche Squirro)"
+  },
+  {
+   "titre": "Forbes (DeepJudge, ex-chercheurs Google)",
+   "url": "https://www.forbes.com/sites/aliciapark/2025/11/04/meet-the-ex-google-researchers-building-ai-search-for-law-firms/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03, 06 (fiche et valorisation DeepJudge)"
+  },
+  {
+   "titre": "Silicon Canals (levée Omnilex)",
+   "url": "https://siliconcanals.com/omnilex-raises-3-8m/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (financement Omnilex)"
+  },
+  {
+   "titre": "Artificial Lawyer (Omnilex, 4,5 M USD)",
+   "url": "https://www.artificiallawyer.com/2025/11/11/omnilex-bags-4-5m-for-legal-research-ai-commentary/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (financement Omnilex)"
+  },
+  {
+   "titre": "Slator (fusion Supertext-Textshuttle)",
+   "url": "https://slator.com/supertext-and-textshuttle-are-merging/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (fiche Supertext)"
+  },
+  {
+   "titre": "Calcalist (montant acquisition Lakera, ~300 M USD)",
+   "url": "https://www.calcalistech.com/ctechnews/article/rj5bc1vige",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée (montant non confirmé officiellement)",
+   "usage": "03, 06 (acquisition Lakera)"
+  },
+  {
+   "titre": "Reuters via TradingView (Giotto.ai, levée visée)",
+   "url": "https://my.tradingview.com/news/reuters.com%2C2025%3Anewsml_L6N3V50VI%3A0",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (fondé sur des \"sources\")",
+   "usage": "03 (valorisation Giotto.ai)"
+  },
+  {
+   "titre": "AIcerts (Giotto.ai et modèles de raisonnement)",
+   "url": "https://www.aicerts.ai/news/giotto-ai-bets-on-reasoning-based-models-to-lead-swiss-agi-charge/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "03 (fiche Giotto.ai)"
+  },
+  {
+   "titre": "swissinfo (IA en Suisse, nouveautés 2026)",
+   "url": "https://www.swissinfo.ch/eng/swiss-ai/artificial-intelligence-in-switzerland-whats-new-in-2026/90701795",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (initiatives Apertus, Meditron)"
+  },
+  {
+   "titre": "swissinfo (rapport KPMG et hallucinations IA)",
+   "url": "https://www.swissinfo.ch/eng/swiss-ai/kpmg-report-contained-ai-hallucinations-on-benefits-of-ai/91574511",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "04 (rapport KPMG retiré)"
+  },
+  {
+   "titre": "swissinfo (OpenAI ouvre un bureau à Zurich)",
+   "url": "https://www.swissinfo.ch/eng/archive-multinational-companies/openai-sets-up-new-office-in-switzerland/88468988",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (implantations)"
+  },
+  {
+   "titre": "The Register (rapport KPMG retiré)",
+   "url": "https://www.theregister.com/ai-and-ml/2026/06/12/kpmgs-ai-report-turns-into-a-demo-of-ai-hallucinations/5255029",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "04 (rapport KPMG retiré)"
+  },
+  {
+   "titre": "finews (Accenture et l'IA agentique bancaire)",
+   "url": "https://www.finews.com/news/english-news/69685-agentic-ai-swiss-banking-accenture-daniel-kobler-finanzplatz-schweiz-2",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "04 (fiche Accenture, étude banques)"
+  },
+  {
+   "titre": "finews (vente de Yokoy à TravelPerk)",
+   "url": "https://www.finews.com/news/english-news/66121-yokoy-zurich-fintech-sold-to-spain-travelperk-philippe-sahli",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "06 (acquisitions)"
+  },
+  {
+   "titre": "finews (Helvetia Clara)",
+   "url": "https://www.finews.com/news/english-news/60290-helvetia-clara-chatbot-ki-english",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (cas en production)"
+  },
+  {
+   "titre": "Computer Weekly (profil Adnovum)",
+   "url": "https://www.computerweekly.com/news/252516221/How-Adnovum-is-leveraging-its-Swiss-roots",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (article de 2022, données possiblement datées)",
+   "usage": "04 (fiche Adnovum)"
+  },
+  {
+   "titre": "ICTjournal (l'EPFL médicalise Apertus)",
+   "url": "https://www.ictjournal.ch/news/2026-06-19/lepfl-medicalise-apertus-et-dautres-modeles-dia-ouverts",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (pipeline Meditron/Apertus)"
+  },
+  {
+   "titre": "ICTjournal (l'IA recompose le marché de l'emploi)",
+   "url": "https://www.ictjournal.ch/etudes/2026-06-17/dans-quelle-mesure-lia-recompose-le-marche-de-lemploi-en-suisse",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "04 (PwC AI Jobs Barometer, volet suisse)"
+  },
+  {
+   "titre": "ICTjournal (Yuh introduit le chatbot Yuhlia)",
+   "url": "https://www.ictjournal.ch/news/2026-04-16/lapp-financiere-suisse-yuh-introduit-un-chatbot-ia-pour-analyser-finances-et",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "05 (fiche Yuhlia)"
+  },
+  {
+   "titre": "ICTjournal (Giotto.ai, version cloud gratuite)",
+   "url": "https://www.ictjournal.ch/news/2026-07-03/la-start-up-romande-giottoai-deploie-une-version-cloud-gratuite-de-son-ia",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "05 (fiche Giotto.ai)"
+  },
+  {
+   "titre": "ICTjournal (la nLPD directement applicable à l'IA)",
+   "url": "https://www.ictjournal.ch/news/2023-11-14/la-nlpd-est-directement-applicable-a-lintelligence-artificielle",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (nLPD et IA)"
+  },
+  {
+   "titre": "ICTjournal (signature de la Convention IA)",
+   "url": "https://www.ictjournal.ch/news/2025-03-27/mise-a-jour-la-suisse-signe-la-convention-sur-lia-du-conseil-de-leurope",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (régulation suisse)"
+  },
+  {
+   "titre": "ICTjournal (la FINMA alerte les banques sur l'IA)",
+   "url": "https://www.ictjournal.ch/news/2025-01-06/gestion-des-risques-de-lia-la-finma-alerte-les-banques-suisses",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (FINMA)"
+  },
+  {
+   "titre": "ICTjournal (transferts de données Suisse-USA facilités)",
+   "url": "https://www.ictjournal.ch/news/2024-08-14/le-transfert-de-donnees-suisse-usa-a-nouveau-facilite",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (Swiss-U.S. DPF)"
+  },
+  {
+   "titre": "ICTjournal (Observatoire Data & IA Oracle/HEG)",
+   "url": "https://www.ictjournal.ch/etudes/2025-09-09/plus-de-la-moitie-des-entreprises-suisses-adoptent-lia-mais-la-strategie-reste-a",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (échantillon ~100 organisations)",
+   "usage": "04, 08 (adoption IA)"
+  },
+  {
+   "titre": "ICTjournal (appel d'offres fédéral de 57 M CHF)",
+   "url": "https://www.ictjournal.ch/news/2026-03-25/la-chancellerie-federale-lance-un-appel-doffre-de-57-millions-pour-accelerer-lia",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (demande publique)"
+  },
+  {
+   "titre": "Netzwoche (Swisscom lance un chatbot IA pour PME)",
+   "url": "https://www.netzwoche.ch/news/2026-02-19/swisscom-lanciert-ki-chatbot-fuer-kmus",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "05 (Swiss AI Assistant)"
+  },
+  {
+   "titre": "Netzwoche (gfs.bern, IA dans la communication des autorités)",
+   "url": "https://www.netzwoche.ch/news/2025-05-21/ki-in-der-behoerdenkommunikation-ist-okay-aber-nicht-bedingungslos",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (sondage n>1000)",
+   "usage": "08 (acceptabilité citoyenne)"
+  },
+  {
+   "titre": "Netzwoche (gfs.bern/Mercator, souveraineté numérique)",
+   "url": "https://www.netzwoche.ch/news/2026-03-30/schweizer-bevoelkerung-wuenscht-sich-mehr-digitale-souveraenitaet",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (attentes de la population)"
+  },
+  {
+   "titre": "Netzwoche (Microsoft Work Trend Index Suisse)",
+   "url": "https://www.netzwoche.ch/news/2025-04-24/schweizer-unternehmen-sind-vorreiter-beim-einsatz-von-ki",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à faible (éditeur juge et partie)",
+   "usage": "08 (adoption d'agents déclarée)"
+  },
+  {
+   "titre": "Netzwoche (vers l'organisation agentique, Gartner)",
+   "url": "https://www.netzwoche.ch/news/2026-05-27/auf-dem-weg-zur-agentischen-organisation",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (projections d'analyste)",
+   "usage": "08 (freins aux projets agentiques)"
+  },
+  {
+   "titre": "IT-Markt (Digitalbarometer 2026)",
+   "url": "https://www.it-markt.ch/news/2026-03-30/schweizer-bevoelkerung-wuenscht-sich-mehr-digitale-souveraenitaet",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (sondage en ligne)",
+   "usage": "08 (attentes de la population)"
+  },
+  {
+   "titre": "inside-it (Conseil des États et Swiss Government Cloud)",
+   "url": "https://www.inside-it.ch/auch-der-staenderat-ist-fuer-die-swiss-government-cloud-20241212",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (Swiss Government Cloud)"
+  },
+  {
+   "titre": "inside-it (guide IA du canton de Zurich)",
+   "url": "https://www.inside-it.ch/kanton-zuerich-veroeffentlicht-ki-leitfaden-20231026",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (marchés publics cantonaux)"
+  },
+  {
+   "titre": "inside-it (guide stratégie IA pour administrations, DVS)",
+   "url": "https://www.inside-it.ch/leitfaden-fuer-ki-strategie-in-schweizer-behoerden-20260223",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (secteur public)"
+  },
+  {
+   "titre": "inside-it (UBS : 60 % des entreprises utilisent l'IA)",
+   "url": "https://www.inside-it.ch/60percent-der-schweizer-unternehmen-nutzen-ki-20260519",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (UBS Outlook, adoption)"
+  },
+  {
+   "titre": "inside-it (Kantonsspital Graubünden, cloud public)",
+   "url": "https://www.inside-it.ch/kantonsspital-graubuenden-strebt-in-die-public-cloud-20241029",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (appels d'offres)"
+  },
+  {
+   "titre": "inside-it (reprise du marché de l'emploi IT)",
+   "url": "https://www.inside-it.ch/leichte-erholung-im-it-stellenmarkt-20260710",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (signaux d'embauche)"
+  },
+  {
+   "titre": "inside-it (RH suisses et IA, dont CFF)",
+   "url": "https://www.inside-it.ch/wie-schweizer-hr-abteilungen-kuenstliche-intelligenz-einsetzen-20230613",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (cas en production)"
+  },
+  {
+   "titre": "dnip.ch (appels d'offres Swiss Government Cloud)",
+   "url": "https://dnip.ch/2026/01/19/swiss-government-cloud-ausschreibungen-desaster-vorprogrammiert/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (analyse critique indépendante)",
+   "usage": "07 (Swiss Government Cloud)"
+  },
+  {
+   "titre": "cmm360 (adesso et Salesforce, agents IA)",
+   "url": "https://www.cmm360.ch/newsflash/adesso-salesforce-ki-agenten-fuer-die-zukunft/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "04 (fiche adesso)"
+  },
+  {
+   "titre": "cmm360 (workflows autonomes, ServiceNow AI Summit)",
+   "url": "https://www.cmm360.ch/artikel/schweizer-unternehmen-setzen-auf-autonome-workflows/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (événement fournisseur)",
+   "usage": "08 (cas CFF, Migros)"
+  },
+  {
+   "titre": "Silicon Saxony (adesso, Agentic Enterprise Fabrics)",
+   "url": "https://silicon-saxony.de/adesso-initiative-agentic-enterprise-fabrics-ki-agenten-als-erfolgsfaktor-fuer-die-unternehmen-der-zukunft/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué relayé)",
+   "usage": "04 (fiche adesso)"
+  },
+  {
+   "titre": "RCR Wireless (Microsoft investit en Suisse)",
+   "url": "https://www.rcrwireless.com/20250604/ai-ml/microsoft-ai-switzerland",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "06 (implantations)"
+  },
+  {
+   "titre": "Sifted (Lakera, série A)",
+   "url": "https://sifted.eu/articles/atomico-gandalf-lakera-raise-news",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (financement Lakera)"
+  },
+  {
+   "titre": "Fintechnews.ch (Unique, série A)",
+   "url": "https://fintechnews.ch/aifintech/switzerlands-unique-raises-30m-series-a-to-advance-financial-ai-solutions/74883/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "06 (financement Unique)"
+  },
+  {
+   "titre": "SecurityWeek (Check Point acquiert Lakera)",
+   "url": "https://www.securityweek.com/check-point-to-acquire-ai-security-firm-lakera/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (acquisition, effectifs Lakera)"
+  },
+  {
+   "titre": "EU-Startups (Neural Concept, 85 M EUR)",
+   "url": "https://www.eu-startups.com/2025/12/with-nvidia-siemens-and-microsoft-as-partners-lausanne-based-neural-concept-raises-e85-million/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "06 (financement Neural Concept)"
+  },
+  {
+   "titre": "PRNewswire (communiqué Lakera, série A 20 M USD)",
+   "url": "https://www.prnewswire.com/news-releases/lakera-raises-20m-series-a-to-secure-generative-ai-applications-302204874.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué primaire)",
+   "usage": "06 (financement Lakera)"
+  },
+  {
+   "titre": "PRNewswire (communiqué Squirro, AI Agent Catalog)",
+   "url": "https://www.prnewswire.com/news-releases/squirro-launches-ai-agent-catalog-to-end-the-start-from-zero-problem-stalling-enterprise-ai-302829144.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué, revendications éditeur)",
+   "usage": "03 (fiche Squirro)"
+  },
+  {
+   "titre": "PRNewswire (communiqué Squirro, croissance ~60 %)",
+   "url": "https://www.prnewswire.com/news-releases/squirro-drives-almost-60-annual-growth-through-acquisitions-partnerships-and-technology-enhancements-302370129.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué, revendications éditeur)",
+   "usage": "06 (croissance Squirro)"
+  },
+  {
+   "titre": "BusinessWire (communiqué Neural Concept, série B 27 M USD)",
+   "url": "https://www.businesswire.com/news/home/20240531755430/en/Engineering-AI-Platform-Neural-Concept-Raises-%2427-Million-Series-B-to-Further-Accelerate-Global-Growth",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué primaire)",
+   "usage": "06 (financement Neural Concept)"
+  },
+  {
+   "titre": "GlobeNewswire (communiqué Calvin Risk, seed)",
+   "url": "https://www.globenewswire.com/news-release/2024/11/19/2983508",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué primaire)",
+   "usage": "03 (financement Calvin Risk)"
+  },
+  {
+   "titre": "GlobeNewswire (communiqué TravelPerk/Yokoy)",
+   "url": "https://www.globenewswire.com/news-release/2025/01/28/3016058/0/en/TravelPerk-Raises-200M-and-Acquires-Yokoy-to-Create-the-Leading-Integrated-Travel-and-Expense-Management-Platform.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué primaire)",
+   "usage": "06 (acquisition Yokoy)"
+  },
+  {
+   "titre": "NZZ (Swisscom développe ses services IA)",
+   "url": "https://www.nzz.ch/english/ai-made-in-switzerland-swisscom-plans-to-develop-its-own-ai-services-ld.1774836",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (partenariat Swisscom-NVIDIA)"
+  },
+  {
+   "titre": "NZZ (CFF, Vincent Ducrot, 2000 postes transformés)",
+   "url": "https://www.nzz.ch/wirtschaft/2000-stellen-betroffen-der-sbb-chef-vincent-ducrot-spricht-darueber-wie-ki-den-betrieb-veraendert-ld.10007171",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (déclarations de CEO, non auditées)",
+   "usage": "08 (cas CFF)"
+  },
+  {
+   "titre": "American Banker (Anthropic, Claude for Financial Services)",
+   "url": "https://www.americanbanker.com/news/anthropic-launches-bank-friendly-ai-agents-vendor-alliances",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (partenariats bancaires)"
+  },
+  {
+   "titre": "Rotek (Euria d'Infomaniak)",
+   "url": "https://rotek.fr/euria-infomaniak-assistant-ia-gratuit-suisse/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée (reprend le communiqué)",
+   "usage": "05 (fiche Euria)"
+  },
+  {
+   "titre": "Le Soleil (communiqué Infomaniak Euria)",
+   "url": "https://www.lesoleil.com/communiques-de-presse/2025/12/09/infomaniak-lance-euria-une-ia-gratuite-et-souveraine-qui-respecte-la-vie-privee-et-chauffe-des-logements-NJSHGP2PH5DOJJ5ZHXSQL3BSDM/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (communiqué de presse)",
+   "usage": "05 (fiche Euria)"
+  },
+  {
+   "titre": "Le Temps (Giotto.ai s'ouvre au grand public)",
+   "url": "https://www.letemps.ch/cyber/giotto-ai-s-ouvre-au-grand-public-offrant-une-nouvelle-solution-suisse-dans-l-intelligence-artificielle",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (paywall, non consulté en intégralité)",
+   "usage": "05 (fiche Giotto.ai)"
+  },
+  {
+   "titre": "RTS (Giotto.ai, raisonnement)",
+   "url": "https://www.rts.ch/info/sciences-tech/2025/article/giotto-ai-l-ia-suisse-qui-surpasse-chatgpt-dans-le-raisonnement-28983253.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (média public)",
+   "usage": "05 (fiche Giotto.ai)"
+  },
+  {
+   "titre": "RTS (OFS : 43 % des Suisses utilisent l'IA générative)",
+   "url": "https://www.rts.ch/info/sciences-tech/2025/article/l-ia-generative-utilisee-par-43-des-suisses-selon-l-ofs-29081284.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (relais de statistique officielle)",
+   "usage": "08 (adoption population)"
+  },
+  {
+   "titre": "Entreprise Romande (Giotto.ai grand public)",
+   "url": "https://www.entrepriseromande.ch/w/la-startup-lausannoise-giotto.ai-ouvre-gratuitement-son-ia-au-grand-public",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "05 (fiche Giotto.ai)"
+  },
+  {
+   "titre": "La Liberté (chatbot IA de l'État de Fribourg)",
+   "url": "https://www.laliberte.ch/articles/regions/canton/l-etat-de-fribourg-lance-un-chatbot-ia-pour-rendre-les-informations-officielles-plus-accessibles-1324962",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (demande publique)"
+  },
+  {
+   "titre": "20 minutes (PME suisses et IA, étude AXA)",
+   "url": "https://www.20min.ch/fr/story/suisse-les-pme-se-convertissent-a-l-ia-mais-oublient-la-securite-103430164",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (relais d'étude)",
+   "usage": "08 (adoption PME)"
+  },
+  {
+   "titre": "Computerworld (Camunda, State of Agentic Orchestration)",
+   "url": "https://www.computerworld.ch/themen/kuenstliche-intelligenz-ki/agentic-ai-luecke-zwischen-vision-und-realitaet",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (éditeur intéressé, pas d'échantillon suisse)",
+   "usage": "08 (freins agents IA)"
+  },
+  {
+   "titre": "dcod.ch (recommandations FINMA sur l'IA)",
+   "url": "https://dcod.ch/2025/01/14/la-finma-fait-7-recommandations-aux-banques-sur-lia/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (recoupé avec sources FINMA)",
+   "usage": "07 (FINMA)"
+  },
+  {
+   "titre": "TimeKraft (IA et avocats suisses)",
+   "url": "https://timekraft.ch/ia-avocats-suisse/",
+   "date": "2026-07-23",
+   "fiabilite": "faible à moyenne (blog commercial)",
+   "usage": "07 (signale les lignes directrices FSA 2024)"
+  },
+  {
+   "titre": "ia-cyber-securite.fr (Infomaniak, cloud souverain)",
+   "url": "https://www.ia-cyber-securite.fr/infomaniak-pme-ecosysteme-cloud-souverain/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (contenu promotionnel)",
+   "usage": "07 (offres souveraines)"
+  },
+  {
+   "titre": "Smarsys (Infomaniak investit 200 M CHF)",
+   "url": "https://www.smarsys.com/infomaniak-met-200-millions-sur-la-table-le-cloud-suisse-sort-les-muscles/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (contenu promotionnel)",
+   "usage": "07 (offres souveraines)"
+  },
+  {
+   "titre": "On Future (emploi IA en Suisse)",
+   "url": "https://www.onfuture.ch/emploi-intelligence-artificielle-suisse-2026/",
+   "date": "2026-07-23",
+   "fiabilite": "faible à moyenne (site commercial agrégateur)",
+   "usage": "08 (signaux d'emploi, à re-sourcer)"
+  },
+  {
+   "titre": "Swiss Venture Capital Report (Startupticker/SECA)",
+   "url": "https://www.startupticker.ch/en/swiss-venture-capital-report",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (contexte macro VC 2025)"
+  },
+  {
+   "titre": "CMS (résumé du SVCR 2026)",
+   "url": "https://cms.law/en/che/legal-updates/swiss-venture-capital-report-2026-shows-strong-rebound-in-swiss-vc-market",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (contexte macro VC)"
+  },
+  {
+   "titre": "EY (communiqué Start-up Barometer Suisse 2026)",
+   "url": "https://www.ey.com/en_ch/newsroom/2026/02/ey-start-up-barometer-switzerland-2026-significant-increase-in-investment-volume-ai-start-ups-becoming-much-more-important",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (financement IA, 163 tours)"
+  },
+  {
+   "titre": "PwC AI Jobs Barometer 2025 (volet suisse)",
+   "url": "https://www.pwc.ch/en/insights/transformation/ai-jobs-barometer-2025-switzerland.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (signaux d'embauche)"
+  },
+  {
+   "titre": "PwC AI Jobs Barometer 2026",
+   "url": "https://www.pwc.ch/de/presse/ai-jobs-barometer-2026.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (base d'annonces massive)",
+   "usage": "08 (marché de l'emploi IA)"
+  },
+  {
+   "titre": "PwC CEO Survey 2026 (volet suisse)",
+   "url": "https://www.pwc.ch/en/insights/ceo-survey/2026.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (81 CEO suisses)",
+   "usage": "08 (adoption et stratégie)"
+  },
+  {
+   "titre": "AXA / Sotomo, KMU-Arbeitsmarktstudie 2025",
+   "url": "https://www.axa.ch/de/ueber-axa/medien/medienmitteilungen/aktuelle-medienmitteilungen/2025/20251008-kmu-arbeitsmarktstudie-2025-ki.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (série annuelle, n=300 modeste)",
+   "usage": "08 (adoption PME, freins)"
+  },
+  {
+   "titre": "UBS Outlook Schweiz (mai 2026)",
+   "url": "https://www.ubs.com/global/de/media/display-page-ndp/de-20260519-ubs-outlook.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (n≈2500)",
+   "usage": "08 (adoption entreprises)"
+  },
+  {
+   "titre": "KOF ETH (Innovationserhebung, IA et petites entreprises)",
+   "url": "https://kof.ethz.ch/en/publications/kof-insights/articles/2025/02/digital-technology-are-small-firms-being-left-behind.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (données 2023, pré-vague GenAI)",
+   "usage": "08 (fracture numérique PME)"
+  },
+  {
+   "titre": "Raiffeisen / Kearney, KMU Mittelstandstudie 2024",
+   "url": "https://www.raiffeisen.ch/rch/de/wissen/unternehmensthemen/forschungs-und-werkplatz-schweiz/kmu-mittelstandstudie.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (usages IA du Mittelstand)"
+  },
+  {
+   "titre": "ZHAW AI Barometer 2025",
+   "url": "https://blog.zhaw.ch/marketingmanagement/ai-barometer-studie-2025/",
+   "date": "2026-07-23",
+   "fiabilite": "faible (n≈140, auto-sélection)",
+   "usage": "08 (signal qualitatif)"
+  },
+  {
+   "titre": "HSG (recherche Schmitt & Blohm, intégration IA)",
+   "url": "https://www.unisg.ch/en/newsdetail/news/why-most-organizations-fall-short-when-it-comes-to-ai-integration/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (87 entretiens qualitatifs)",
+   "usage": "08 (ROI et passage à l'échelle)"
+  },
+  {
+   "titre": "Adecco Group Job Index / Stellenmarkt-Monitor UZH",
+   "url": "https://www.adeccogroup.com/de-ch/zukunft-der-arbeit/job-index/job-index-q1-2026",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (indice scientifique)",
+   "usage": "08 (compétences IA, ~25 000 postes)"
+  },
+  {
+   "titre": "Deloitte, State of GenAI in the Enterprise (volet suisse)",
+   "url": "https://www.deloitte.com/ch/fr/about/press-room/gen-ai-swiss-companies-more-cautious-than-their-international-competitors.html",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (échantillon suisse ≈50)",
+   "usage": "08 (prudence des entreprises suisses)"
+  },
+  {
+   "titre": "economiesuisse (réglementer l'IA de manière avisée)",
+   "url": "https://www.economiesuisse.ch/fr/articles/reglementer-lintelligence-artificielle-de-maniere-avisee",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (position de branche, pas une enquête)",
+   "usage": "08 (contexte réglementaire)"
+  },
+  {
+   "titre": "Graduate Institute, LibGuides LPD (sous-traitance, obligations)",
+   "url": "https://libguides.graduateinstitute.ch/c.php?g=668396&p=4741943",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (source académique)",
+   "usage": "07 (art. 9 et 21 LPD)"
+  },
+  {
+   "titre": "swissprivacy.law (articles 27, 332, 337, 338)",
+   "url": "https://swissprivacy.law/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (revue juridique)",
+   "usage": "07 (DPF, feuille de route IA, violations, cloud bancaire)"
+  },
+  {
+   "titre": "CDBF Université de Genève (AI Act et FINMA, articles 1397 et 1392)",
+   "url": "https://cdbf.ch/en/1397/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (centre universitaire)",
+   "usage": "07 (extraterritorialité AI Act, FINMA)"
+  },
+  {
+   "titre": "Lenz & Staehelin (calendrier AI Act et entreprises suisses)",
+   "url": "https://www.lenzstaehelin.com/news-and-insights/browse-thought-leadership-insights/insights-detail/the-eu-ai-act-update-on-the-application-timeline-and-implications-for-swiss-companies/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (cabinet d'avocats de référence)",
+   "usage": "07 (AI Act)"
+  },
+  {
+   "titre": "datenrecht.ch / Walder Wyss (communication FINMA 08/2024)",
+   "url": "https://datenrecht.ch/en/finma-aufsichtsmitteilung-governance-und-risikomanagement-beim-einsatz-von-ki/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (FINMA)"
+  },
+  {
+   "titre": "Wenger Vieli (la régulation IA suisse prend forme)",
+   "url": "https://www.wengervieli.ch/de-ch/journal/spotlights/schweizer-ki-regulierung-nimmt-form-an",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (régulation suisse)"
+  },
+  {
+   "titre": "William Fry (extraterritorialité de l'AI Act)",
+   "url": "https://www.williamfry.com/knowledge/a-practical-guide-to-the-extraterritorial-reach-of-the-ai-act/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (AI Act)"
+  },
+  {
+   "titre": "DLA Piper (omnibus numérique IA)",
+   "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/The-Digital-AI-Omnibus-Proposed-deferral-of-high-risk-AI-obligations-under-the-AI-Act",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (report des échéances haut risque)"
+  },
+  {
+   "titre": "Gibson Dunn (accord omnibus AI Act)",
+   "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (calendrier AI Act)"
+  },
+  {
+   "titre": "noze (AI Act, digital omnibus 2026)",
+   "url": "https://www.noze.it/en/insights/ai-act-digital-omnibus-2026/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "07 (calendrier AI Act)"
+  },
+  {
+   "titre": "Penalex (sanctions pénales de la nLPD)",
+   "url": "https://penalex.ch/non-classifiee/revision-de-la-loi-federale-sur-la-protection-des-donnees-sanction-penales/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (art. 60 ss LPD)"
+  },
+  {
+   "titre": "Sylvain Métille (violations de la sécurité des données)",
+   "url": "https://smetille.ch/2025/03/10/violations-de-la-securite-des-donnees/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (blog d'avocat spécialisé)",
+   "usage": "07 (art. 24 LPD)"
+  },
+  {
+   "titre": "lecocqassociate (circulaire FINMA 2018/3 Outsourcing)",
+   "url": "https://www.lecocqassociate.com/publications/la-nouvelle-circulaire-finma-2018-3-outsourcing-banques-et-assureurs",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "07 (externalisation)"
+  },
+  {
+   "titre": "Tracxn (agentic AI Suisse, fiche Squirro)",
+   "url": "https://tracxn.com/d/explore/agentic-ai-startups-in-switzerland/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (taxonomie étroite, vu via extraits)",
+   "usage": "01, 02, 06 (recensement et financements)"
+  },
+  {
+   "titre": "startupintros (fiche Typewise)",
+   "url": "https://startupintros.com/orgs/typewise",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (vu via extraits)",
+   "usage": "01 (fiche Typewise)"
+  },
+  {
+   "titre": "Moneyhouse (fiche Artificialy SA)",
+   "url": "https://www.moneyhouse.ch/en/company/artificialy-sa-10330994071",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (registre)",
+   "usage": "02 (fiche Artificialy)"
+  },
+  {
+   "titre": "PitchBook (profil Unique)",
+   "url": "https://pitchbook.com/profiles/company/484788-34",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (paywall partiel)",
+   "usage": "06 (effectif Unique ~165)"
+  },
+  {
+   "titre": "Glassdoor (offres \"artificial intelligence\" et \"forward deployed engineer\")",
+   "url": "https://www.glassdoor.com/Job/switzerland-artificial-intelligence-jobs-SRCH_IL.0,11_IN226_KO12,35.htm",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (instantané)",
+   "usage": "06 (volumes d'offres d'emploi)"
+  },
+  {
+   "titre": "swissaijob.ch (offres IA)",
+   "url": "https://swissaijob.ch/jobs/sector/industry",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "06 (volumes d'offres)"
+  },
+  {
+   "titre": "swissdevjobs.ch (annonce FDE, fourchette salariale)",
+   "url": "https://swissdevjobs.ch/jobs/Rockstar-Recruiting-AG-Forward-Deployed-Engineer---AIML",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (annonce isolée)",
+   "usage": "06 (salaires FDE)"
+  },
+  {
+   "titre": "jobmaps.ch (annonce FDE Kyndryl Zurich)",
+   "url": "https://jobmaps.ch/en/company/341212/job/234541",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne",
+   "usage": "06 (profils recherchés)"
+  },
+  {
+   "titre": "swissmadesoftware.org (listes Agentic AI, Chatbots, Virtual Agents)",
+   "url": "https://www.swissmadesoftware.org/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (annuaire auto-déclaratif)",
+   "usage": "01, 04 (recensement de fournisseurs)"
+  },
+  {
+   "titre": "Sortlist (annuaire agents IA Zurich)",
+   "url": "https://www.sortlist.ch/de/s/ki-agenten/zurich-ch",
+   "date": "2026-07-23",
+   "fiabilite": "faible (annuaire commercial)",
+   "usage": "01, 04 (recensement d'agences)"
+  },
+  {
+   "titre": "Wikipedia (article Apertus)",
+   "url": "https://en.wikipedia.org/wiki/Apertus_(LLM)",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (encyclopédie collaborative)",
+   "usage": "03 (caractéristiques d'Apertus)"
+  },
+  {
+   "titre": "Scalemetrics (levées suisses 2026)",
+   "url": "https://www.scalemetrics.ai/biggest-swiss-funding-rounds-2026/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (agrégateur, méthode non détaillée)",
+   "usage": "06 (projections VC)"
+  },
+  {
+   "titre": "PFPDT, IA et protection des données (et pages Dispositions pénales, guide art. 24, Journée 2026)",
+   "url": "https://www.edoeb.admin.ch/fr/ia-et-protection-des-donnees",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (autorité)",
+   "usage": "07 (position du PFPDT sur l'IA, sanctions, violations)"
+  },
+  {
+   "titre": "Fedlex, LPD révisée (RS 235.1)",
+   "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/fr",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (texte officiel ; accès direct bloqué ce jour, vérifié via sources secondaires)",
+   "usage": "07 (obligations nLPD)"
+  },
+  {
+   "titre": "DFAE (signature de la Convention IA du Conseil de l'Europe)",
+   "url": "https://www.fdfa.admin.ch/countries/luxembourg/fr/home/actualite/nouveautes.html/content/europa/fr/meta/news/2025/3/26/104646",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (régulation suisse)"
+  },
+  {
+   "titre": "OFCOM (dossier intelligence artificielle)",
+   "url": "https://www.bakom.admin.ch/de/kuenstliche-intelligenz",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (approche du Conseil fédéral)"
+  },
+  {
+   "titre": "Chancellerie fédérale (page intelligence artificielle)",
+   "url": "https://www.bk.admin.ch/fr/intelligence-artificielle",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (gouvernance IA administration fédérale)"
+  },
+  {
+   "titre": "Chancellerie fédérale (communiqué appel d'offres data/IA 57 M CHF)",
+   "url": "https://www.bk.admin.ch/fr/newnsb/0PNEf5nyXeOYeFWbSfG4v",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (demande publique)"
+  },
+  {
+   "titre": "SEFRI (lignes directrices IA de la Confédération, 2020)",
+   "url": "https://www.sbfi.admin.ch/dam/fr/sd-web/-uy97trD1VMc/Leitlinien%20K%C3%BCnstliche%20Intelligenz%20-%20DE%5B1%5D.pdf/Leitlinien%20K%C3%BCnstliche%20Intelligenz%20-%20FR.pdf",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (marchés publics)"
+  },
+  {
+   "titre": "CNAI (monitoring des lignes directrices IA)",
+   "url": "https://cnai.swiss/wp-content/uploads/2022/12/Monitoring-der-Leitlinien-KI-FR.pdf",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (marchés publics)"
+  },
+  {
+   "titre": "digital.swiss (transposition de la Convention IA)",
+   "url": "https://digital.swiss/de/aktionsplan/massnahme/vorlage-zur-umsetzung-des-rahmenubereinkommens-des-europarats-uber-kunstliche-intelligenz-und-menschenrechte,-demokratie-und-rechtsstaatlichkeit",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (calendrier législatif suisse)"
+  },
+  {
+   "titre": "FINMA (communication 08/2024, dossier IA, enquête avril 2025)",
+   "url": "https://www.finma.ch/en/news/2024/12/20241218-mm-finma-am-08-24/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (autorité de surveillance)",
+   "usage": "07 (gouvernance IA banques et assurances)"
+  },
+  {
+   "titre": "FINMA (circulaire 2018/3 Outsourcing)",
+   "url": "https://www.finma.ch/fr/~/media/finma/dokumente/dokumentencenter/myfinma/rundschreiben/finma-rs-2018-03-01012021_de.pdf",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (externalisation)"
+  },
+  {
+   "titre": "OFIT (Swiss Government Cloud)",
+   "url": "https://www.bit.admin.ch/de/sgc-de",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (cloud du secteur public)"
+  },
+  {
+   "titre": "Canton de Zurich (IA dans l'administration cantonale)",
+   "url": "https://www.zh.ch/de/politik-staat/kanton/kantonale-verwaltung/digitale-verwaltung/kuenstliche-intelligenz.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (guide cantonal de référence)"
+  },
+  {
+   "titre": "EUR-Lex (AI Act, règlement (UE) 2024/1689)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (texte officiel)",
+   "usage": "07 (obligations et sanctions AI Act)"
+  },
+  {
+   "titre": "ASB (Guide Cloud, 3e édition 2025 et édition 2020)",
+   "url": "https://cdbf.ch/wp-content/uploads/2025/11/2025-asb-guide-cloud-3e-edition.pdf",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (standard de branche de facto)",
+   "usage": "07 (secret bancaire et cloud)"
+  },
+  {
+   "titre": "ASB / Swiss Risk Association (événement Sovereign AI and Cloud in Swiss Banking)",
+   "url": "https://www.swissbanking.ch/en/services/events/sovereign-ai-and-cloud-in-swiss-banking-staying-competitive-in-an-ai-driven-global-banking-landscape",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne (page d'événement)",
+   "usage": "07 (souveraineté bancaire)"
+  },
+  {
+   "titre": "FSA (avis de droit sur le cloud pour avocats)",
+   "url": "https://digital.sav-fsa.ch/documents/1060627/1169162/gutachten_sav-franzoesisch.pdf",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (secret professionnel de l'avocat)"
+  },
+  {
+   "titre": "État de Fribourg (Swiss-U.S. Data Privacy Framework)",
+   "url": "https://www.fr.ch/atprdm/actualites/swiss-us-data-privacy-framework-les-entreprises-americaines-certifiees-offrent-un-niveau-de-protection-des-donnees-adequat",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "07 (transferts vers les USA)"
+  },
+  {
+   "titre": "État de Fribourg (chatbot IA de fr.ch)",
+   "url": "https://www.fr.ch/cha/actualites/nouveau-chatbot-ia-de-frch-faciliter-lacces-a-linformation-publique",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué officiel)",
+   "usage": "08 (cas en production, coût de référence)"
+  },
+  {
+   "titre": "admin.ch (OFS, usage de l'IA générative par la population)",
+   "url": "https://www.admin.ch/fr/newnsb/6zpv_pRise2PU3NnFIv0n",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (statistique officielle)",
+   "usage": "08 (adoption population)"
+  },
+  {
+   "titre": "kmu.admin.ch / SECO (IA dans les PME et sur le marché du travail)",
+   "url": "https://www.kmu.admin.ch/kmu/en/home/new/news/2026/artificial-intelligence-begins-weigh-labor-market.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (adoption PME, emploi)"
+  },
+  {
+   "titre": "CFF (page fournisseurs et appels d'offres)",
+   "url": "https://company.sbb.ch/fr/les-cff-comme-partenaire-commercial/fournisseurs/appels-d-offres-actuels.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "08 (appels d'offres, absence de lot IA confirmée)"
+  },
+  {
+   "titre": "ETH Zurich (communiqué Apertus)",
+   "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (communiqué institutionnel)",
+   "usage": "03, 05, 06, 08 (LLM souverain Apertus)"
+  },
+  {
+   "titre": "ETH Zurich News (record de créations 2025, collaboration SNAI avec l'EPFL)",
+   "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/01/start-up-boom-thriving.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (dynamique des spin-offs, SNAI)"
+  },
+  {
+   "titre": "ETH D-INFK (rachat d'Invariant Labs par Snyk)",
+   "url": "https://inf.ethz.ch/news-and-events/spotlights/infk-news-channel/2025/06/eth-spin-off-aquired-by-snyk.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (exit sécurité d'agents)"
+  },
+  {
+   "titre": "ETH AI Center (liste des 78 startups affiliées)",
+   "url": "https://ai.ethz.ch/entrepreneurship/startups.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (recensement des startups agentiques)"
+  },
+  {
+   "titre": "EPFL (actualité Launchpad, 6 projets IA sélectionnés)",
+   "url": "https://actu.epfl.ch/news/six-ai-startup-projects-selected-for-new-launchpad",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (programme AI Track)"
+  },
+  {
+   "titre": "EPFL (page Startup Launchpad AI Track)",
+   "url": "https://www.epfl.ch/innovation/startup/programs/ai-track/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (programme AI Track)"
+  },
+  {
+   "titre": "Idiap (spin-offs, tech transfer, Idiap Create Challenge)",
+   "url": "https://www.idiap.ch/en/tech-transfer/spinoffs-partners",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (écosystème valaisan, briques vocales)"
+  },
+  {
+   "titre": "CSEM (historique startups et communiqué Accelerate)",
+   "url": "https://www.csem.ch/en/history-and-start-ups/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (deeptech neuchâteloise)"
+  },
+  {
+   "titre": "Innosuisse (Start-up Innovation Projects)",
+   "url": "https://www.innosuisse.admin.ch/en/start-up-innovation-projects",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (agence fédérale)",
+   "usage": "03 (financement public de l'innovation)"
+  },
+  {
+   "titre": "Swiss AI Initiative",
+   "url": "https://www.swiss-ai.org/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (initiative Alps/Apertus)"
+  },
+  {
+   "titre": "Public AI Inference Utility (Apertus)",
+   "url": "https://publicai.co/stories/apertus",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (canaux de diffusion d'Apertus)"
+  },
+  {
+   "titre": "SPIU, Swiss Public Inference Utility",
+   "url": "https://spiu.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (inférence souveraine)"
+  },
+  {
+   "titre": "Venturelab (profils et communiqués : Unique, DeepJudge, Visium, Selma)",
+   "url": "https://www.venturelab.swiss/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée (organisme de promotion)",
+   "usage": "03, 05 (financements et fiches startups)"
+  },
+  {
+   "titre": "Venture Kick (pré-seed nunu.ai)",
+   "url": "https://www.venturekick.ch/Nunuai-raises-USD-2M-PreSeed-Funding-to-innovate-game-testing-with-AI",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (financement nunu.ai)"
+  },
+  {
+   "titre": "zuerich.ai (analyse du record de spin-offs ETH 2025)",
+   "url": "https://zuerich.ai/news/eth-zurich-spinoff-record-2025-analysis/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "03 (dynamique zurichoise)"
+  },
+  {
+   "titre": "Greater Zurich Area (SwissGPT, implantation Anthropic)",
+   "url": "https://www.greaterzuricharea.com/en/news/swissgpt-bringing-secure-ai-companies",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée (organisme de promotion)",
+   "usage": "03, 04, 06 (AlpineAI, Anthropic Zurich)"
+  },
+  {
+   "titre": "Switzerland Global Enterprise (équipe de recherche Anthropic à Zurich)",
+   "url": "https://www.s-ge.com/invest/en/articles/news/anthropic-establishing-ai-research-team-zurich",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "06 (implantations)"
+  },
+  {
+   "titre": "ZHAW Impact (SwissGPT, collaboration historique)",
+   "url": "https://impact.zhaw.ch/en/article/a-historic-collaboration-switzerlands-own-version-of-chatgpt",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (fiche AlpineAI)"
+  },
+  {
+   "titre": "UZH Innovation Hub (fusion Supertext)",
+   "url": "https://www.innovation.uzh.ch/en/stories/news/2025/12.02.2025_Supertext.html",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "03 (fiche Supertext)"
+  },
+  {
+   "titre": "INSAIT (série A LatticeFlow)",
+   "url": "https://insait.ai/latticeflow-rounda-en/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée",
+   "usage": "03 (financement LatticeFlow)"
+  },
+  {
+   "titre": "Deep Tech Nation (éditoriaux agentic AI, Swiss Deep Tech Report 2026, articles financement)",
+   "url": "https://deeptechnation.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "moyenne à élevée (fondation, éditorial)",
+   "usage": "01, 03, 06 (panorama agentique, valorisation DeepJudge, VC deeptech)"
+  },
+  {
+   "titre": "Fongit (incubateur genevois)",
+   "url": "https://www.fongit.ch/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (contexte écosystème)",
+   "usage": "02 (écosystème romand)"
+  },
+  {
+   "titre": "Innovaud (agence d'innovation vaudoise)",
+   "url": "https://www.innovaud.ch/fr/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (contexte écosystème)",
+   "usage": "02 (écosystème romand)"
+  },
+  {
+   "titre": "Promotion économique du Valais (Neuralia)",
+   "url": "https://valais-economie.ch/neuralia-deploie-des-solutions-concretes-dintelligence-artificielle-dans-les-pme/",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (source institutionnelle)",
+   "usage": "02 (fiche Neuralia)"
+  },
+  {
+   "titre": "USI Startup (fiche Artificialy)",
+   "url": "https://www.startup.usi.ch/en/feeds/30365",
+   "date": "2026-07-23",
+   "fiabilite": "élevée (source institutionnelle)",
+   "usage": "02 (fiche Artificialy)"
+  },
+  {
+   "titre": "Canton de Genève (plan directeur de l'innovation)",
+   "url": "https://www.ge.ch/document/plan-directeur-innovation-deploie-ses-premiers-effets-concrets-avec-quatre-soutiens-financiers-octroyes-start-up",
+   "date": "2026-07-23",
+   "fiabilite": "élevée",
+   "usage": "02 (soutiens publics aux startups)"
+  }
+ ]
 }
